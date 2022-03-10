@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "maple_block_side",
+        "up": "maple_block_top",
+        "down": "maple_block_bottom"
+      },
+      "name": "default"
+    }
+  }
+}

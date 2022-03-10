@@ -1,0 +1,26 @@
+{
+  "_fv": 25,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "acorn",
+    "customModelName": "Normal",
+    "name": "Acorn",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Naturesaidtab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 1,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

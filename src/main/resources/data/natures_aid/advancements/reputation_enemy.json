@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "natures_aid:oil_bottle"
+    },
+    "title": {
+      "translate": "advancements.reputation_enemy.title"
+    },
+    "description": {
+      "translate": "advancements.reputation_enemy.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reputation_enemy": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "natures_aid:reputation_hated"
+}

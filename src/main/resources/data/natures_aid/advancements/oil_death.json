@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "natures_aid:oil_bottle"
+    },
+    "title": {
+      "translate": "advancements.oil_death.title"
+    },
+    "description": {
+      "translate": "advancements.oil_death.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "oil_death": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "natures_aid:oil_bottle"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "natures_aid:natures_aid_adv"
+}

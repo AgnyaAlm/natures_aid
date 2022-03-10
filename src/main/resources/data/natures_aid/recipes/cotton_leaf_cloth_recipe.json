@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "natures_aid:small_leaf"
+    },
+    "1": {
+      "item": "natures_aid:small_leaf"
+    },
+    "2": {
+      "item": "natures_aid:cotton_fiber"
+    },
+    "3": {
+      "item": "natures_aid:cotton_fiber"
+    }
+  },
+  "result": {
+    "item": "natures_aid:cottonleaf_cloth",
+    "count": 1
+  }
+}

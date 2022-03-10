@@ -1,0 +1,11 @@
+{
+  "_fv": 25,
+  "_type": "command",
+  "definition": {
+    "commandName": "setecorep",
+    "permissionLevel": "4",
+    "onCommandExecuted": {
+      "name": "SetReputationCommandExecuted"
+    }
+  }
+}

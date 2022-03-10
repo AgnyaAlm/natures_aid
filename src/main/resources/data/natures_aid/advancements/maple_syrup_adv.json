@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "natures_aid:maple_syrup"
+    },
+    "title": {
+      "translate": "advancements.maple_syrup_adv.title"
+    },
+    "description": {
+      "translate": "advancements.maple_syrup_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "maple_syrup_adv": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "natures_aid:maple_syrup"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "natures_aid:vegan_sugar_adv"
+}

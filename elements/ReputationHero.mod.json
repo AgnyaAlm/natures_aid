@@ -1,0 +1,25 @@
+{
+  "_fv": 25,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "They love me!",
+    "achievementDescription": "What a hero. You've reached the \"Hero of the world\" eco-reputation.",
+    "achievementIcon": {
+      "value": "CUSTOM:RecyclingTable"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 200,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:ReputationAdmired"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"33\" y=\"52\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

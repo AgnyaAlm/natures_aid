@@ -1,0 +1,30 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "natures_aid:naturesaidprev"
+    },
+    "title": {
+      "translate": "advancements.natures_aid_adv.title"
+    },
+    "description": {
+      "translate": "advancements.natures_aid_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "natures_aid_adv": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "natures_aid:leaf_catcher"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 25,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Aiming for a vegan lifestyle.",
+    "achievementDescription": "Make maple sugar. An alternative to make \"vegan honey\" aka. Maple Syrup.",
+    "achievementIcon": {
+      "value": "CUSTOM:MapleSugar"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:MapleAdv"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"21\" y=\"112\"><next><block type=\"advancement_trigger\"></block></next></block></xml>"
+  }
+}

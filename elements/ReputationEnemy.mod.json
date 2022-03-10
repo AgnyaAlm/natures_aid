@@ -1,0 +1,25 @@
+{
+  "_fv": 25,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Everybody's enemy",
+    "achievementDescription": "You've reached the \"enemy\" eco-reputation, now villagers will not want to trade with you. You monster.",
+    "achievementIcon": {
+      "value": "CUSTOM:OilBottle"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 200,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:ReputationHated"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"33\" y=\"52\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

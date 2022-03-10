@@ -1,0 +1,25 @@
+{
+  "_fv": 25,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Saving the planet",
+    "achievementDescription": "Recicle an item you don't need.",
+    "achievementIcon": {
+      "value": "CUSTOM:RecyclingTable"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:RecycleAdv"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"39\" y=\"49\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

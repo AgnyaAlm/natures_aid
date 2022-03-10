@@ -1,0 +1,12 @@
+{
+  "_fv": 25,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Enable Eco-Reputation for Villagers",
+    "description": "Choose to enable or disable Nature Aid's eco-reputation for villagers. You will still lose/gain reputation points, but villagers won't care and notifications will not appear.",
+    "category": "PLAYER",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "natures_aid:cellulose_fiber"
+    },
+    "1": {
+      "item": "natures_aid:cellulose_fiber"
+    },
+    "2": {
+      "item": "natures_aid:cellulose_fiber"
+    },
+    "3": {
+      "item": "natures_aid:cellulose_fiber"
+    }
+  },
+  "result": {
+    "item": "natures_aid:cotton_fiber",
+    "count": 1
+  }
+}

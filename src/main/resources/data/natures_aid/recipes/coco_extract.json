@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "natures_aid:half_coconut"
+    },
+    {
+      "item": "natures_aid:plastic_spoon"
+    }
+  ],
+  "result": {
+    "item": "natures_aid:pure_coco",
+    "count": 1
+  }
+}

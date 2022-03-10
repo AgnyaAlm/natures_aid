@@ -1,0 +1,12 @@
+{
+  "_fv": 25,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "I",
+    "keyBindingName": "Statistics Menu",
+    "keyBindingCategoryKey": "naturesaid",
+    "onKeyPressed": {
+      "name": "ReputationKeyOnKeyPressed"
+    }
+  }
+}

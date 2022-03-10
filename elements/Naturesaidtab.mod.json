@@ -1,0 +1,11 @@
+{
+  "_fv": 25,
+  "_type": "tab",
+  "definition": {
+    "name": "Nature's Aid Stuff",
+    "icon": {
+      "value": "CUSTOM:Naturesaidprev"
+    },
+    "showSearch": false
+  }
+}

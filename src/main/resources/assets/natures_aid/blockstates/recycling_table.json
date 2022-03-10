@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "natures_aid:block/recycling_table"
+    },
+    "facing=east": {
+      "model": "natures_aid:block/recycling_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "natures_aid:block/recycling_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "natures_aid:block/recycling_table",
+      "y": 270
+    }
+  }
+}

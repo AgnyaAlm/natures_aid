@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "natures_aid:small_leaf"
+    },
+    "title": {
+      "translate": "advancements.leaf_adv.title"
+    },
+    "description": {
+      "translate": "advancements.leaf_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "leaf_adv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "natures_aid:small_leaf"
+            ],
+            "count": {
+              "min": 1,
+              "max": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "natures_aid:natures_aid_adv"
+}

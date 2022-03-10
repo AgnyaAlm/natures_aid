@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "natures_aid:recycling_table"
+    },
+    "title": {
+      "translate": "advancements.recyclethird_adv.title"
+    },
+    "description": {
+      "translate": "advancements.recyclethird_adv.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "recyclethird_adv": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "natures_aid:recyclesecond_adv"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "natures_aid:custom/mortarandpestle",
+  "textures": {
+    "all": "natures_aid:blocks/mortar_prev",
+    "particle": "natures_aid:blocks/granite",
+    "0": "natures_aid:blocks/granite",
+    "1": "natures_aid:blocks/andesite"
+  }
+}

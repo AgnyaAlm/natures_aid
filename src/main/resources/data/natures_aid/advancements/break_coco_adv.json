@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "natures_aid:half_coconut"
+    },
+    "title": {
+      "translate": "advancements.break_coco_adv.title"
+    },
+    "description": {
+      "translate": "advancements.break_coco_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "break_coco_adv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "natures_aid:half_coconut"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "natures_aid:jungle_coco_adv"
+}

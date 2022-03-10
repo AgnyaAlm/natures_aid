@@ -1,0 +1,20 @@
+{
+  "_fv": 25,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:PlasticSpoon"
+      },
+      {
+        "value": "CUSTOM:PlasticStick"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "plastic",
+    "namespace": "forge"
+  }
+}

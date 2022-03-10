@@ -1,0 +1,9 @@
+{
+  "parent": "natures_aid:custom/recycletable",
+  "textures": {
+    "all": "natures_aid:blocks/bin",
+    "particle": "natures_aid:blocks/bin",
+    "0": "natures_aid:blocks/bin",
+    "1": "natures_aid:blocks/bintop"
+  }
+}

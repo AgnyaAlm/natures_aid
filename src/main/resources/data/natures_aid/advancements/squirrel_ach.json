@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "natures_aid:acorn"
+    },
+    "title": {
+      "translate": "advancements.squirrel_ach.title"
+    },
+    "description": {
+      "translate": "advancements.squirrel_ach.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "squirrel_ach": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "natures_aid:acorn"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "natures_aid:leaf_adv"
+}

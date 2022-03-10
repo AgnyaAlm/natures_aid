@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "natures_aid:mortar_and_pestle"
+    },
+    "title": {
+      "translate": "advancements.mortar_adv.title"
+    },
+    "description": {
+      "translate": "advancements.mortar_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mortar_adv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "natures_aid:mortar_and_pestle"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "natures_aid:natures_aid_adv"
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "natures_aid:leafpaper"
+    },
+    "title": {
+      "translate": "advancements.leaf_paper_adv.title"
+    },
+    "description": {
+      "translate": "advancements.leaf_paper_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "leaf_paper_adv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "natures_aid:leafpaper"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "natures_aid:leaf_paper_adv"
+}

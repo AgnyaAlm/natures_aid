@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "natures_aid:maple_sugar"
+    },
+    "title": {
+      "translate": "advancements.vegan_sugar_adv.title"
+    },
+    "description": {
+      "translate": "advancements.vegan_sugar_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "vegan_sugar_adv": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "natures_aid:maple_adv"
+}

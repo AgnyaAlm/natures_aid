@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:granite"
+    },
+    "1": {
+      "item": "minecraft:andesite_wall"
+    },
+    "2": {
+      "item": "minecraft:granite"
+    },
+    "4": {
+      "item": "minecraft:granite"
+    }
+  },
+  "result": {
+    "item": "natures_aid:mortar_and_pestle",
+    "count": 1
+  }
+}

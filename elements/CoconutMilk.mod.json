@@ -1,0 +1,26 @@
+{
+  "_fv": 25,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "coconutmilk_bottle",
+    "customModelName": "Normal",
+    "name": "Coconut Milk",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Naturesaidtab"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 1,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": "Items.GLASS_BOTTLE"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false
+  }
+}

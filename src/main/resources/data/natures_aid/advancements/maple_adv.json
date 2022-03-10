@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "natures_aid:maple_leaf"
+    },
+    "title": {
+      "translate": "advancements.maple_adv.title"
+    },
+    "description": {
+      "translate": "advancements.maple_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "maple_adv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "natures_aid:maple_leaf"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "natures_aid:natures_aid_adv"
+}

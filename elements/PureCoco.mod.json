@@ -1,0 +1,29 @@
+{
+  "_fv": 25,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "purecoco",
+    "customModelName": "Normal",
+    "name": "Coco",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "§7Pure coco",
+      "used to make coconut milk."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Naturesaidtab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 6,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

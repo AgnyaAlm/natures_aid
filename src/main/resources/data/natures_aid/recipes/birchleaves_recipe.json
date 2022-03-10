@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "natures_aid:small_leaf"
+    },
+    "1": {
+      "item": "natures_aid:acorn"
+    },
+    "2": {
+      "item": "natures_aid:small_leaf"
+    },
+    "3": {
+      "item": "natures_aid:small_leaf"
+    },
+    "4": {
+      "item": "natures_aid:small_leaf"
+    },
+    "5": {
+      "item": "natures_aid:small_leaf"
+    },
+    "6": {
+      "item": "natures_aid:small_leaf"
+    },
+    "7": {
+      "item": "natures_aid:acorn"
+    },
+    "8": {
+      "item": "natures_aid:small_leaf"
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_leaves",
+    "count": 2
+  }
+}

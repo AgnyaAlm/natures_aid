@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "natures_aid:recycling_table"
+    },
+    "title": {
+      "translate": "advancements.reputation_admired.title"
+    },
+    "description": {
+      "translate": "advancements.reputation_admired.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reputation_admired": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "natures_aid:natures_aid_adv"
+}

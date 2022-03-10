@@ -1,0 +1,46 @@
+{
+  "_fv": 25,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SmallLeaf"
+      },
+      {
+        "value": "CUSTOM:Acorn"
+      },
+      {
+        "value": "CUSTOM:SmallLeaf"
+      },
+      {
+        "value": "CUSTOM:SmallLeaf"
+      },
+      {
+        "value": "CUSTOM:SmallLeaf"
+      },
+      {
+        "value": "CUSTOM:SmallLeaf"
+      },
+      {
+        "value": "CUSTOM:SmallLeaf"
+      },
+      {
+        "value": "CUSTOM:Acorn"
+      },
+      {
+        "value": "CUSTOM:SmallLeaf"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.LEAVES#2"
+    },
+    "name": "birchleaves_recipe",
+    "namespace": "mod"
+  }
+}

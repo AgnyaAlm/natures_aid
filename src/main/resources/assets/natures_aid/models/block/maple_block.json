@@ -1,0 +1,10 @@
+{
+  "parent": "natures_aid:custom/maple_block",
+  "textures": {
+    "all": "natures_aid:blocks/maple_block_bottom",
+    "particle": "natures_aid:blocks/maple_block_bottom",
+    "side": "natures_aid:blocks/maple_block_side",
+    "up": "natures_aid:blocks/maple_block_top",
+    "down": "natures_aid:blocks/maple_block_bottom"
+  }
+}

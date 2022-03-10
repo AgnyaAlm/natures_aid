@@ -1,0 +1,29 @@
+{
+  "_fv": 25,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "plastic_spoon",
+    "customModelName": "Normal",
+    "name": "Plastic Spoon",
+    "specialInfo": [
+      "§7Used to extract coco with a crafting table."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Naturesaidtab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 1,
+    "efficiency": 2.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 2.0,
+    "usageCount": 10,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
+  }
+}

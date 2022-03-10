@@ -1,0 +1,10 @@
+{
+  "parent": "natures_aid:custom/leafcatcher",
+  "textures": {
+    "all": "natures_aid:blocks/leafcatcher",
+    "particle": "natures_aid:blocks/leafcatcher",
+    "0": "natures_aid:blocks/oak_log",
+    "2": "natures_aid:blocks/string",
+    "3": "natures_aid:blocks/web"
+  }
+}
