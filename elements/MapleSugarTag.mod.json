@@ -1,0 +1,17 @@
+{
+  "_fv": 25,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:MapleSugar"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "sugar",
+    "namespace": "minecraft"
+  }
+}

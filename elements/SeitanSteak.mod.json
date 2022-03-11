@@ -3,27 +3,24 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "oil_bottle",
+    "texture": "seitansteak",
     "customModelName": "Normal",
-    "name": "Fossil Oil Bottle",
+    "name": "Seitan Steak",
     "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Naturesaidtab"
     },
     "stackSize": 64,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "nutritionalValue": 8,
+    "saturation": 12.8,
     "eatingSpeed": 32,
     "resultItem": {
       "value": ""
     },
     "forDogs": false,
-    "isAlwaysEdible": true,
-    "animation": "drink",
-    "hasGlow": false,
-    "onEaten": {
-      "name": "OilInstantDeath"
-    }
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
   }
 }

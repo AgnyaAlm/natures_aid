@@ -1,0 +1,17 @@
+{
+  "_fv": 25,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CoconutMilk"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "milk_bucket",
+    "namespace": "minecraft"
+  }
+}

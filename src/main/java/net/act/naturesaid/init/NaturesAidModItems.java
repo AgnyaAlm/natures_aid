@@ -13,7 +13,10 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.act.naturesaid.item.WheatFlourItem;
 import net.act.naturesaid.item.SmallLeafItem;
+import net.act.naturesaid.item.SeitanSteakItem;
+import net.act.naturesaid.item.SeitanDoughItem;
 import net.act.naturesaid.item.PureCocoItem;
 import net.act.naturesaid.item.PlasticStickItem;
 import net.act.naturesaid.item.PlasticSpoonItem;
@@ -57,6 +60,9 @@ public class NaturesAidModItems {
 	public static final RegistryObject<Item> RECYCLING_TABLE = block(NaturesAidModBlocks.RECYCLING_TABLE, NaturesAidModTabs.TAB_NATURESAIDTAB);
 	public static final RegistryObject<Item> COTTON_FIBER = REGISTRY.register("cotton_fiber", () -> new CottonFiberItem());
 	public static final RegistryObject<Item> COTTONLEAF_CLOTH = REGISTRY.register("cottonleaf_cloth", () -> new CottonleafClothItem());
+	public static final RegistryObject<Item> WHEAT_FLOUR = REGISTRY.register("wheat_flour", () -> new WheatFlourItem());
+	public static final RegistryObject<Item> SEITAN_DOUGH = REGISTRY.register("seitan_dough", () -> new SeitanDoughItem());
+	public static final RegistryObject<Item> SEITAN_STEAK = REGISTRY.register("seitan_steak", () -> new SeitanSteakItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -7,25 +7,10 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.LEATHER"
-      },
-      {
         "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Leafpaper"
-      },
-      {
-        "value": "CUSTOM:Leafpaper"
-      },
-      {
-        "value": "CUSTOM:Leafpaper"
       },
       {
         "value": ""
@@ -35,12 +20,27 @@
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:WheatFlour"
+      },
+      {
+        "value": "CUSTOM:WheatFlour"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WheatFlour"
+      },
+      {
+        "value": "CUSTOM:WheatFlour"
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.BOOK"
+      "value": "CUSTOM:SeitanDough"
     },
-    "name": "bookwithleafpaper",
+    "name": "seitan_dough_recipe",
     "namespace": "mod"
   }
 }

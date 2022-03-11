@@ -4,12 +4,15 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="natures_aid"
-version="1.0.0"
+version="22.3.9"
 displayName="Nature's Aid"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
 authors="Alm, ACT"
+description='''
+A natural revamp of Minecraft.
+'''
 
 [[dependencies.natures_aid]]
     modId="minecraft"

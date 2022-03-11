@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "natures_aid:wheat_flour"
+    },
+    "1": {
+      "item": "natures_aid:wheat_flour"
+    },
+    "2": {
+      "item": "natures_aid:wheat_flour"
+    },
+    "3": {
+      "item": "natures_aid:wheat_flour"
+    }
+  },
+  "result": {
+    "item": "natures_aid:seitan_dough",
+    "count": 1
+  }
+}
