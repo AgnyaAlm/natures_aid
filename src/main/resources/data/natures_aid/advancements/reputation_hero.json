@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "natures_aid:recycling_table"
+      "item": "natures_aid:icohero"
     },
     "title": {
       "translate": "advancements.reputation_hero.title"
@@ -9,7 +9,7 @@
     "description": {
       "translate": "advancements.reputation_hero.descr"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -80,13 +80,13 @@ public class RecyclingTableBlock extends Block
 		switch ((Direction) state.getValue(FACING)) {
 			case SOUTH :
 			default :
-				return box(3, 0, 3, 14, 15, 13).move(offset.x, offset.y, offset.z);
+				return box(3, 0, 3, 14, 12, 13).move(offset.x, offset.y, offset.z);
 			case NORTH :
-				return box(2, 0, 3, 13, 15, 13).move(offset.x, offset.y, offset.z);
+				return box(2, 0, 3, 13, 12, 13).move(offset.x, offset.y, offset.z);
 			case EAST :
-				return box(3, 0, 2, 13, 15, 13).move(offset.x, offset.y, offset.z);
+				return box(3, 0, 2, 13, 12, 13).move(offset.x, offset.y, offset.z);
 			case WEST :
-				return box(3, 0, 3, 13, 15, 14).move(offset.x, offset.y, offset.z);
+				return box(3, 0, 3, 13, 12, 14).move(offset.x, offset.y, offset.z);
 		}
 	}
 

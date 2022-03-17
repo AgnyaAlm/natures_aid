@@ -9,10 +9,11 @@ public class IsPlayerHatedProcedure {
 		if (entity == null)
 			return false;
 		if ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation <= -1
-				&& (entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation >= 10) {
-			return true;
+				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation < 0) {
+			if ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation >= -10) {
+				return true;
+			}
 		}
 		return false;
 	}

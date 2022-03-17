@@ -9,9 +9,9 @@
     "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Naturesaidtab"
+      "value": "CUSTOM:VeganAlternatives"
     },
-    "stackSize": 64,
+    "stackSize": 16,
     "nutritionalValue": 4,
     "saturation": 0.3,
     "eatingSpeed": 32,

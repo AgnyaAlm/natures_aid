@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "natures_aid:plastic_blob"
+    },
+    "1": {
+      "item": "natures_aid:cottonleaf_cloth"
+    },
+    "2": {
+      "item": "minecraft:magenta_dye"
+    }
+  },
+  "result": {
+    "item": "natures_aid:mask_magenta_helmet",
+    "count": 1
+  }
+}

@@ -8,7 +8,7 @@
     "name": "Plastic Stick",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Naturesaidtab"
+      "value": "CUSTOM:Plasticstuff"
     },
     "stackSize": 64,
     "enchantability": 0,

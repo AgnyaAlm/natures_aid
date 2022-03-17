@@ -41,7 +41,7 @@
     "creativeTab": {
       "value": "CUSTOM:Naturesaidtab"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },

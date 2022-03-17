@@ -15,7 +15,7 @@ import net.act.naturesaid.init.NaturesAidModTabs;
 
 public class CoconutMilkItem extends Item {
 	public CoconutMilkItem() {
-		super(new Item.Properties().tab(NaturesAidModTabs.TAB_NATURESAIDTAB).stacksTo(1).rarity(Rarity.COMMON)
+		super(new Item.Properties().tab(NaturesAidModTabs.TAB_VEGAN_ALTERNATIVES).stacksTo(1).rarity(Rarity.COMMON)
 				.food((new FoodProperties.Builder()).nutrition(1).saturationMod(0.3f).alwaysEat()
 
 						.build()));

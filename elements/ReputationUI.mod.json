@@ -22,7 +22,7 @@
             "name": "IsPlayerAHero"
           },
           "name": "Hero of the world",
-          "x": 169,
+          "x": 170,
           "y": 68
         }
       },
@@ -38,7 +38,7 @@
             "name": "IsPlayerAnEnemy"
           },
           "name": "Enemy of the world",
-          "x": 168,
+          "x": 167,
           "y": 68
         }
       },
@@ -93,27 +93,27 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:stat_reputation>",
+          "text": "<VAR:integer:stat_reputation>",
           "color": {
             "value": -1,
             "falpha": 0.0
           },
-          "name": "<VAR:stat_reputation>",
-          "x": 173,
-          "y": 104
+          "name": "<VAR:integer:stat_reputation>",
+          "x": 215,
+          "y": 106
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "<VAR:stat_recycleditems>",
+          "text": "<VAR:integer:stat_recycleditems>",
           "color": {
             "value": -5316388,
             "falpha": 0.0
           },
-          "name": "<VAR:stat_recycleditems>",
-          "x": 236,
-          "y": 105
+          "name": "<VAR:integer:stat_recycleditems>",
+          "x": 215,
+          "y": 122
         }
       },
       {
@@ -174,8 +174,8 @@
           "image": "rep32x.png",
           "use1Xscale": true,
           "name": "rep32x.png",
-          "x": 173,
-          "y": 116
+          "x": 197,
+          "y": 102
         }
       },
       {
@@ -184,8 +184,8 @@
           "image": "recycled32x.png",
           "use1Xscale": true,
           "name": "recycled32x.png",
-          "x": 234,
-          "y": 116
+          "x": 196,
+          "y": 118
         }
       },
       {
@@ -265,6 +265,22 @@
           "name": "Close",
           "x": 189,
           "y": 185
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The reputation system is disabled in this world.",
+          "color": {
+            "value": -10676200,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "IsReputationEnabled"
+          },
+          "name": "The reputation system is disabled in this world.",
+          "x": 94,
+          "y": 77
         }
       }
     ],

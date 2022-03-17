@@ -24,8 +24,8 @@ public class NaturesAidModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, NaturesAidMod.MODID);
 	public static final RegistryObject<Block> LEAF_CATCHER = REGISTRY.register("leaf_catcher", () -> new LeafCatcherBlock());
 	public static final RegistryObject<Block> MORTAR_AND_PESTLE = REGISTRY.register("mortar_and_pestle", () -> new MortarAndPestleBlock());
-	public static final RegistryObject<Block> MAPLE_BLOCK = REGISTRY.register("maple_block", () -> new MapleBlockBlock());
 	public static final RegistryObject<Block> RECYCLING_TABLE = REGISTRY.register("recycling_table", () -> new RecyclingTableBlock());
+	public static final RegistryObject<Block> MAPLE_BLOCK = REGISTRY.register("maple_block", () -> new MapleBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -33,8 +33,8 @@ public class NaturesAidModBlocks {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			LeafCatcherBlock.registerRenderLayer();
 			MortarAndPestleBlock.registerRenderLayer();
-			MapleBlockBlock.registerRenderLayer();
 			RecyclingTableBlock.registerRenderLayer();
+			MapleBlockBlock.registerRenderLayer();
 		}
 	}
 }

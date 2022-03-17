@@ -1,0 +1,11 @@
+{
+  "_fv": 25,
+  "_type": "tab",
+  "definition": {
+    "name": "Plastic Stuff",
+    "icon": {
+      "value": "CUSTOM:RecyclingTable"
+    },
+    "showSearch": false
+  }
+}

@@ -7,7 +7,7 @@
     "cookingTime": 200,
     "recipeRetstackSize": 4,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": "CUSTOM:MapleBlock"

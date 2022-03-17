@@ -5,7 +5,7 @@
     "achievementName": "They love me!",
     "achievementDescription": "What a hero. You've reached the \"Hero of the world\" eco-reputation.",
     "achievementIcon": {
-      "value": "CUSTOM:RecyclingTable"
+      "value": "CUSTOM:Icohero"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -16,7 +16,7 @@
     "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 200,
-    "achievementType": "goal",
+    "achievementType": "challenge",
     "parent": {
       "value": "CUSTOM:ReputationAdmired"
     },

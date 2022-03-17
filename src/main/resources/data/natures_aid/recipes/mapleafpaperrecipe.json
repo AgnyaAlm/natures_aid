@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "natures_aid:leafpaper"
+    },
+    "1": {
+      "item": "natures_aid:leafpaper"
+    },
+    "2": {
+      "item": "natures_aid:leafpaper"
+    },
+    "3": {
+      "item": "natures_aid:leafpaper"
+    },
+    "4": {
+      "item": "minecraft:compass"
+    },
+    "5": {
+      "item": "natures_aid:leafpaper"
+    },
+    "6": {
+      "item": "natures_aid:leafpaper"
+    },
+    "7": {
+      "item": "natures_aid:leafpaper"
+    },
+    "8": {
+      "item": "natures_aid:leafpaper"
+    }
+  },
+  "result": {
+    "item": "minecraft:map",
+    "count": 1
+  }
+}

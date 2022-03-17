@@ -9,14 +9,14 @@
     "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Naturesaidtab"
+      "value": "CUSTOM:Plasticstuff"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "nutritionalValue": 4,
     "saturation": 0.3,
-    "eatingSpeed": 32,
+    "eatingSpeed": 10,
     "resultItem": {
-      "value": ""
+      "value": "Items.GLASS_BOTTLE"
     },
     "forDogs": false,
     "isAlwaysEdible": true,

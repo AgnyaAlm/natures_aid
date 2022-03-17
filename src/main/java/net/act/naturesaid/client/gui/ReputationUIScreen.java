@@ -12,6 +12,7 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.act.naturesaid.world.inventory.ReputationUIMenu;
+import net.act.naturesaid.procedures.IsReputationEnabledProcedure;
 import net.act.naturesaid.procedures.IsPlayerNeutralProcedure;
 import net.act.naturesaid.procedures.IsPlayerHatedProcedure;
 import net.act.naturesaid.procedures.IsPlayerAnEnemyProcedure;
@@ -70,10 +71,10 @@ public class ReputationUIScreen extends AbstractContainerScreen<ReputationUIMenu
 		}
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("natures_aid:textures/rep32x.png"));
-		this.blit(ms, this.leftPos + 53, this.topPos + 91, 0, 0, 16, 16, 16, 16);
+		this.blit(ms, this.leftPos + 77, this.topPos + 77, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("natures_aid:textures/recycled32x.png"));
-		this.blit(ms, this.leftPos + 114, this.topPos + 91, 0, 0, 16, 16, 16, 16);
+		this.blit(ms, this.leftPos + 76, this.topPos + 93, 0, 0, 16, 16, 16, 16);
 
 		if (IsPlayerHatedProcedure.execute(entity)) {
 			RenderSystem.setShaderTexture(0, new ResourceLocation("natures_aid:textures/hatedbar.png"));
@@ -115,19 +116,21 @@ public class ReputationUIScreen extends AbstractContainerScreen<ReputationUIMenu
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		if (IsPlayerAHeroProcedure.execute(entity))
-			this.font.draw(poseStack, "Hero of the world", 49, 43, -7152089);
+			this.font.draw(poseStack, "Hero of the world", 50, 43, -7152089);
 		if (IsPlayerAnEnemyProcedure.execute(entity))
-			this.font.draw(poseStack, "Enemy of the world", 48, 43, -8514540);
+			this.font.draw(poseStack, "Enemy of the world", 47, 43, -8514540);
 		if (IsPlayerHatedProcedure.execute(entity))
 			this.font.draw(poseStack, "Hated", 80, 43, -3573126);
 		if (IsPlayerAdmiredProcedure.execute(entity))
 			this.font.draw(poseStack, "Admired", 76, 43, -7548259);
 		if (IsPlayerNeutralProcedure.execute(entity))
 			this.font.draw(poseStack, "Neutral", 76, 43, -3158065);
-		this.font.draw(poseStack, "" + ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation) + "", 53, 79, -1);
-		this.font.draw(poseStack, "" + ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_recycleditems) + "", 116, 80, -5316388);
+		this.font.draw(poseStack, "" + (int) ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation) + "", 95, 81, -1);
+		this.font.draw(poseStack, "" + (int) ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_recycleditems) + "", 95, 97, -5316388);
+		if (IsReputationEnabledProcedure.execute(world))
+			this.font.draw(poseStack, "The reputation system is disabled in this world.", -25, 52, -10676200);
 	}
 
 	@Override

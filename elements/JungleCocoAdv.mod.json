@@ -2,7 +2,7 @@
   "_fv": 25,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Jungle's are pretty useful!",
+    "achievementName": "Jungles are pretty useful!",
     "achievementDescription": "Get a coconut from a jungle tree.",
     "achievementIcon": {
       "value": "CUSTOM:Coconut"

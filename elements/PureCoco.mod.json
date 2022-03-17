@@ -7,10 +7,7 @@
     "customModelName": "Normal",
     "name": "Coco",
     "rarity": "COMMON",
-    "specialInfo": [
-      "§7Pure coco",
-      "used to make coconut milk."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Naturesaidtab"
     },

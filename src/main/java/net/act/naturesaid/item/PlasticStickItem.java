@@ -9,7 +9,7 @@ import net.act.naturesaid.init.NaturesAidModTabs;
 
 public class PlasticStickItem extends Item {
 	public PlasticStickItem() {
-		super(new Item.Properties().tab(NaturesAidModTabs.TAB_NATURESAIDTAB).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(NaturesAidModTabs.TAB_PLASTICSTUFF).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

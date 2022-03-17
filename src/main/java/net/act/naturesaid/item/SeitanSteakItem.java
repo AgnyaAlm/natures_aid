@@ -9,7 +9,7 @@ import net.act.naturesaid.init.NaturesAidModTabs;
 
 public class SeitanSteakItem extends Item {
 	public SeitanSteakItem() {
-		super(new Item.Properties().tab(NaturesAidModTabs.TAB_NATURESAIDTAB).stacksTo(64).rarity(Rarity.COMMON)
+		super(new Item.Properties().tab(NaturesAidModTabs.TAB_VEGAN_ALTERNATIVES).stacksTo(64).rarity(Rarity.COMMON)
 				.food((new FoodProperties.Builder()).nutrition(8).saturationMod(12.8f)
 
 						.build()));

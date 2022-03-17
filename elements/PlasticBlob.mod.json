@@ -8,7 +8,7 @@
     "name": "Plastic Blob",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Naturesaidtab"
+      "value": "CUSTOM:Plasticstuff"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -24,9 +24,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "§7Don't forget to recycle it! §a??"
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

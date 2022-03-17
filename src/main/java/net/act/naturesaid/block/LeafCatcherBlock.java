@@ -5,6 +5,9 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.PushReaction;
@@ -76,6 +79,22 @@ public class LeafCatcherBlock extends Block
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 0;
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		Vec3 offset = state.getOffset(world, pos);
+		switch ((Direction) state.getValue(FACING)) {
+			case SOUTH :
+			default :
+				return box(5, 0, 0, 16, 16, 16).move(offset.x, offset.y, offset.z);
+			case NORTH :
+				return box(0, 0, 0, 11, 16, 16).move(offset.x, offset.y, offset.z);
+			case EAST :
+				return box(0, 0, 0, 16, 16, 11).move(offset.x, offset.y, offset.z);
+			case WEST :
+				return box(0, 0, 5, 16, 16, 16).move(offset.x, offset.y, offset.z);
+		}
 	}
 
 	@Override

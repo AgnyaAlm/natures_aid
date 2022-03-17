@@ -11,15 +11,21 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.core.BlockPos;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
 
 import net.act.naturesaid.network.NaturesAidModVariables;
 import net.act.naturesaid.init.NaturesAidModGameRules;
 
 import javax.annotation.Nullable;
 
+import java.util.Iterator;
 import java.util.Comparator;
 
 @Mod.EventBusSubscriber
@@ -61,6 +67,140 @@ public class WoodOrFaunaOnFireProcedure {
 						});
 			}
 			if (world.getLevelData().getGameRules().getBoolean(NaturesAidModGameRules.ENABLEREPUTATION) == true) {
+				if ((((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
+						.sorted(new Object() {
+							Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+								return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+							}
+						}.compareDistOf(x, y, z)).findFirst().orElse(null)).getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+								.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation < 0) {
+					if (!(((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
+							.sorted(new Object() {
+								Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+									return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+								}
+							}.compareDistOf(x, y, z)).findFirst().orElse(null))instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
+									? _plr.getAdvancements()
+											.getOrStartProgress(_plr.server.getAdvancements()
+													.getAdvancement(new ResourceLocation("natures_aid:reputation_hated")))
+											.isDone()
+									: false)) {
+						if (((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
+								.sorted(new Object() {
+									Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+										return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+									}
+								}.compareDistOf(x, y, z)).findFirst().orElse(null))instanceof ServerPlayer _player) {
+							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("natures_aid:reputation_hated"));
+							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+							if (!_ap.isDone()) {
+								Iterator _iterator = _ap.getRemainingCriteria().iterator();
+								while (_iterator.hasNext())
+									_player.getAdvancements().award(_adv, (String) _iterator.next());
+							}
+						}
+					}
+				} else if ((((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
+						.sorted(new Object() {
+							Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+								return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+							}
+						}.compareDistOf(x, y, z)).findFirst().orElse(null)).getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+								.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation < 10) {
+					if (!(((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
+							.sorted(new Object() {
+								Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+									return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+								}
+							}.compareDistOf(x, y, z)).findFirst().orElse(null))instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
+									? _plr.getAdvancements()
+											.getOrStartProgress(_plr.server.getAdvancements()
+													.getAdvancement(new ResourceLocation("natures_aid:reputation_enemy")))
+											.isDone()
+									: false)) {
+						if (((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
+								.sorted(new Object() {
+									Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+										return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+									}
+								}.compareDistOf(x, y, z)).findFirst().orElse(null))instanceof ServerPlayer _player) {
+							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("natures_aid:reputation_enemy"));
+							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+							if (!_ap.isDone()) {
+								Iterator _iterator = _ap.getRemainingCriteria().iterator();
+								while (_iterator.hasNext())
+									_player.getAdvancements().award(_adv, (String) _iterator.next());
+							}
+						}
+					}
+				} else if ((((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
+						.sorted(new Object() {
+							Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+								return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+							}
+						}.compareDistOf(x, y, z)).findFirst().orElse(null)).getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+								.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation > 10) {
+					if (!(((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
+							.sorted(new Object() {
+								Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+									return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+								}
+							}.compareDistOf(x, y, z)).findFirst().orElse(null))instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
+									? _plr.getAdvancements()
+											.getOrStartProgress(_plr.server.getAdvancements()
+													.getAdvancement(new ResourceLocation("natures_aid:reputation_admired")))
+											.isDone()
+									: false)) {
+						if (((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
+								.sorted(new Object() {
+									Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+										return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+									}
+								}.compareDistOf(x, y, z)).findFirst().orElse(null))instanceof ServerPlayer _player) {
+							Advancement _adv = _player.server.getAdvancements()
+									.getAdvancement(new ResourceLocation("natures_aid:reputation_admired"));
+							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+							if (!_ap.isDone()) {
+								Iterator _iterator = _ap.getRemainingCriteria().iterator();
+								while (_iterator.hasNext())
+									_player.getAdvancements().award(_adv, (String) _iterator.next());
+							}
+						}
+					}
+				} else if ((((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
+						.sorted(new Object() {
+							Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+								return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+							}
+						}.compareDistOf(x, y, z)).findFirst().orElse(null)).getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+								.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation > 35) {
+					if (!(((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
+							.sorted(new Object() {
+								Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+									return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+								}
+							}.compareDistOf(x, y, z)).findFirst().orElse(null))instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
+									? _plr.getAdvancements()
+											.getOrStartProgress(
+													_plr.server.getAdvancements().getAdvancement(new ResourceLocation("natures_aid:reputation_hero")))
+											.isDone()
+									: false)) {
+						if (((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
+								.sorted(new Object() {
+									Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+										return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+									}
+								}.compareDistOf(x, y, z)).findFirst().orElse(null))instanceof ServerPlayer _player) {
+							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("natures_aid:reputation_hero"));
+							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+							if (!_ap.isDone()) {
+								Iterator _iterator = _ap.getRemainingCriteria().iterator();
+								while (_iterator.hasNext())
+									_player.getAdvancements().award(_adv, (String) _iterator.next());
+							}
+						}
+					}
+				}
 				if (((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 10, 10, 10), e -> true).stream()
 						.sorted(new Object() {
 							Comparator<Entity> compareDistOf(double _x, double _y, double _z) {

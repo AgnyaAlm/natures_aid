@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "cottonleafcloth",
+    "texture": "cottonleaf_cloth",
     "customModelName": "Normal",
     "name": "Cotton-Leaf Cloth",
     "rarity": "COMMON",

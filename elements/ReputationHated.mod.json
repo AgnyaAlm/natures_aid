@@ -5,7 +5,7 @@
     "achievementName": "I don't care about the planet.",
     "achievementDescription": "You've reached the \"hated\" eco-reputation, now villagers will not want to trade with you. You monster.",
     "achievementIcon": {
-      "value": "CUSTOM:OilBottle"
+      "value": "CUSTOM:Icohated"
     },
     "background": "Default",
     "disableDisplay": false,

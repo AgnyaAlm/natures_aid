@@ -9,7 +9,7 @@ import net.act.naturesaid.init.NaturesAidModTabs;
 
 public class MapleSugarItem extends Item {
 	public MapleSugarItem() {
-		super(new Item.Properties().tab(NaturesAidModTabs.TAB_NATURESAIDTAB).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(NaturesAidModTabs.TAB_VEGAN_ALTERNATIVES).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

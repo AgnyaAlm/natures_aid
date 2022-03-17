@@ -111,7 +111,7 @@ public class NaturesAidModVariables {
 
 	public static class PlayerVariables {
 		public double stat_recycleditems = 0;
-		public double stat_reputation = 10.0;
+		public double stat_reputation = 1.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)

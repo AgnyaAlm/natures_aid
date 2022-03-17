@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "natures_aid:oil_bottle"
+      "item": "natures_aid:icoenemy"
     },
     "title": {
       "translate": "advancements.reputation_enemy.title"

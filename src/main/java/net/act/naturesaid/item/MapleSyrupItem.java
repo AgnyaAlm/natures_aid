@@ -16,7 +16,7 @@ import net.act.naturesaid.init.NaturesAidModTabs;
 
 public class MapleSyrupItem extends Item {
 	public MapleSyrupItem() {
-		super(new Item.Properties().tab(NaturesAidModTabs.TAB_NATURESAIDTAB).stacksTo(64).rarity(Rarity.COMMON)
+		super(new Item.Properties().tab(NaturesAidModTabs.TAB_VEGAN_ALTERNATIVES).stacksTo(16).rarity(Rarity.COMMON)
 				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f)
 
 						.build()));

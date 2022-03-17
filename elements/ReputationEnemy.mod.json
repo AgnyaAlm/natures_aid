@@ -5,7 +5,7 @@
     "achievementName": "Everybody's enemy",
     "achievementDescription": "You've reached the \"enemy\" eco-reputation, now villagers will not want to trade with you. You monster.",
     "achievementIcon": {
-      "value": "CUSTOM:OilBottle"
+      "value": "CUSTOM:Icoenemy"
     },
     "background": "Default",
     "disableDisplay": false,

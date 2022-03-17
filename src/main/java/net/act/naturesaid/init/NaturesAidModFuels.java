@@ -16,5 +16,7 @@ public class NaturesAidModFuels {
 			event.setBurnTime(60);
 		else if (event.getItemStack().getItem() == NaturesAidModItems.MAPLE_LEAF.get())
 			event.setBurnTime(80);
+		else if (event.getItemStack().getItem() == NaturesAidModItems.LEAF_FEATHER.get())
+			event.setBurnTime(120);
 	}
 }

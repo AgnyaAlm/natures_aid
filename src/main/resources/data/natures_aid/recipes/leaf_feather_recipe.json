@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 "
+  ],
+  "key": {
+    "0": {
+      "item": "natures_aid:small_leaf"
+    },
+    "1": {
+      "item": "natures_aid:small_leaf"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "natures_aid:leaf_feather",
+    "count": 1
+  }
+}

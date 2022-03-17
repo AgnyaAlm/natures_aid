@@ -41,7 +41,7 @@ public class PlasticSpoonItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().tab(NaturesAidModTabs.TAB_NATURESAIDTAB));
+		}, 1, -3f, new Item.Properties().tab(NaturesAidModTabs.TAB_PLASTICSTUFF));
 	}
 
 	@Override

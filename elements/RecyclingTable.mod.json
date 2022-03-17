@@ -27,7 +27,7 @@
         "my": 0.0,
         "mz": 3.0,
         "Mx": 13.0,
-        "My": 15.0,
+        "My": 12.0,
         "Mz": 13.0,
         "subtract": false
       }
@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Naturesaidtab"
+      "value": "CUSTOM:Plasticstuff"
     },
     "destroyTool": "Not specified",
     "customDrop": {

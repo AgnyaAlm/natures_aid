@@ -1,0 +1,16 @@
+{
+  "group": "masks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "natures_aid:plastic_blob"
+    },
+    {
+      "item": "natures_aid:cottonleaf_cloth"
+    }
+  ],
+  "result": {
+    "item": "natures_aid:maskgreen_helmet",
+    "count": 1
+  }
+}

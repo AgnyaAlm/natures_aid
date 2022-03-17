@@ -5,7 +5,7 @@
     "achievementName": "Doing good for the planet.",
     "achievementDescription": "You've reached the \"admired\" eco-reputation.",
     "achievementIcon": {
-      "value": "CUSTOM:RecyclingTable"
+      "value": "CUSTOM:Icoadmired"
     },
     "background": "Default",
     "disableDisplay": false,

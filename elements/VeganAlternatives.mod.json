@@ -1,0 +1,11 @@
+{
+  "_fv": 25,
+  "_type": "tab",
+  "definition": {
+    "name": "Vegan Alternatives & Food",
+    "icon": {
+      "value": "CUSTOM:MapleSyrup"
+    },
+    "showSearch": false
+  }
+}
