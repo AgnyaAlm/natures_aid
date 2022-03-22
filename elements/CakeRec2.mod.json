@@ -1,0 +1,46 @@
+{
+  "_fv": 25,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CoconutMilk"
+      },
+      {
+        "value": "CUSTOM:CoconutMilk"
+      },
+      {
+        "value": "CUSTOM:CoconutMilk"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "CUSTOM:ApplePuree"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "Items.WHEAT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.CAKE"
+    },
+    "name": "cake_rec_2",
+    "namespace": "mod"
+  }
+}

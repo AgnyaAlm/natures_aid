@@ -74,6 +74,7 @@ public class NaturesAidModVariables {
 					.orElse(new PlayerVariables()));
 			clone.stat_recycleditems = original.stat_recycleditems;
 			clone.stat_reputation = original.stat_reputation;
+			clone.firstjoin = original.firstjoin;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -112,6 +113,7 @@ public class NaturesAidModVariables {
 	public static class PlayerVariables {
 		public double stat_recycleditems = 0;
 		public double stat_reputation = 1.0;
+		public boolean firstjoin = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -122,6 +124,7 @@ public class NaturesAidModVariables {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("stat_recycleditems", stat_recycleditems);
 			nbt.putDouble("stat_reputation", stat_reputation);
+			nbt.putBoolean("firstjoin", firstjoin);
 			return nbt;
 		}
 
@@ -129,6 +132,7 @@ public class NaturesAidModVariables {
 			CompoundTag nbt = (CompoundTag) Tag;
 			stat_recycleditems = nbt.getDouble("stat_recycleditems");
 			stat_reputation = nbt.getDouble("stat_reputation");
+			firstjoin = nbt.getBoolean("firstjoin");
 		}
 	}
 
@@ -156,6 +160,7 @@ public class NaturesAidModVariables {
 							.orElse(new PlayerVariables()));
 					variables.stat_recycleditems = message.data.stat_recycleditems;
 					variables.stat_reputation = message.data.stat_reputation;
+					variables.firstjoin = message.data.firstjoin;
 				}
 			});
 			context.setPacketHandled(true);

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "natures_aid:acorn"
+    },
+    {
+      "item": "natures_aid:acorn"
+    },
+    {
+      "item": "natures_aid:acorn"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "natures_aid:acorn_mush",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 25,
+  "_type": "tab",
+  "definition": {
+    "name": "Granny's Guides to Nature's Aid",
+    "icon": {
+      "value": "CUSTOM:BookIcon"
+    },
+    "showSearch": false
+  }
+}

@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Plastic Spoon",
     "specialInfo": [
-      "§7Used to extract coco with a crafting table."
+      "§8Used to extract coco from a broken coconut."
     ],
     "creativeTab": {
       "value": "CUSTOM:Plasticstuff"

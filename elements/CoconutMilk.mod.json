@@ -7,7 +7,9 @@
     "customModelName": "Normal",
     "name": "Coconut Milk",
     "rarity": "COMMON",
-    "specialInfo": [],
+    "specialInfo": [
+      "§8Alternative to Milk"
+    ],
     "creativeTab": {
       "value": "CUSTOM:VeganAlternatives"
     },
@@ -21,6 +23,9 @@
     "forDogs": false,
     "isAlwaysEdible": true,
     "animation": "drink",
-    "hasGlow": false
+    "hasGlow": false,
+    "onEaten": {
+      "name": "CoconutMilkFoodEaten"
+    }
   }
 }

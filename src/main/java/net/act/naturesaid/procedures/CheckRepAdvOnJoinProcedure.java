@@ -33,7 +33,9 @@ public class CheckRepAdvOnJoinProcedure {
 		if (entity == null)
 			return;
 		if ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation < 0) {
+				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation < 0
+				&& (entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation >= -10) {
 			if (!(entity instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
 					? _plr.getAdvancements()
 							.getOrStartProgress(_plr.server.getAdvancements().getAdvancement(new ResourceLocation("natures_aid:reputation_hated")))
@@ -50,7 +52,7 @@ public class CheckRepAdvOnJoinProcedure {
 				}
 			}
 		} else if ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation < 10) {
+				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation < -10) {
 			if (!(entity instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
 					? _plr.getAdvancements()
 							.getOrStartProgress(_plr.server.getAdvancements().getAdvancement(new ResourceLocation("natures_aid:reputation_enemy")))
@@ -67,7 +69,9 @@ public class CheckRepAdvOnJoinProcedure {
 				}
 			}
 		} else if ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation > 10) {
+				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation > 10
+				&& (entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation <= 35) {
 			if (!(entity instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
 					? _plr.getAdvancements()
 							.getOrStartProgress(_plr.server.getAdvancements().getAdvancement(new ResourceLocation("natures_aid:reputation_admired")))

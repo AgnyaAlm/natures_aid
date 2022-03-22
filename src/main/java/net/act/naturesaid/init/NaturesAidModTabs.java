@@ -15,6 +15,7 @@ public class NaturesAidModTabs {
 	public static CreativeModeTab TAB_PLASTICSTUFF;
 	public static CreativeModeTab TAB_VEGAN_ALTERNATIVES;
 	public static CreativeModeTab TAB_COSMETICS;
+	public static CreativeModeTab TAB_BOOK_TAB;
 
 	public static void load() {
 		TAB_NATURESAIDTAB = new CreativeModeTab("tabnaturesaidtab") {
@@ -54,6 +55,17 @@ public class NaturesAidModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(NaturesAidModItems.ICO_ANIMATED_COSMETICS.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_BOOK_TAB = new CreativeModeTab("tabbook_tab") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(NaturesAidModItems.BOOK_ICON.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

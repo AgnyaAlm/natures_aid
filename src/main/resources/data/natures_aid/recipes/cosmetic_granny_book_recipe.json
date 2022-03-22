@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "natures_aid:plastic_blob"
+    },
+    "1": {
+      "item": "natures_aid:recycling_grannybook"
+    }
+  },
+  "result": {
+    "item": "natures_aid:cosmetic_grannybook",
+    "count": 1
+  }
+}

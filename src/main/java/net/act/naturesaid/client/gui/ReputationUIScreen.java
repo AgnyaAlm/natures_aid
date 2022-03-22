@@ -125,12 +125,25 @@ public class ReputationUIScreen extends AbstractContainerScreen<ReputationUIMenu
 			this.font.draw(poseStack, "Admired", 76, 43, -7548259);
 		if (IsPlayerNeutralProcedure.execute(entity))
 			this.font.draw(poseStack, "Neutral", 76, 43, -3158065);
-		this.font.draw(poseStack, "" + (int) ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation) + "", 95, 81, -1);
+		if (IsPlayerNeutralProcedure.execute(entity))
+			this.font.draw(poseStack, "" + (int) ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation) + "", 95, 81, -1);
 		this.font.draw(poseStack, "" + (int) ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_recycleditems) + "", 95, 97, -5316388);
 		if (IsReputationEnabledProcedure.execute(world))
 			this.font.draw(poseStack, "The reputation system is disabled in this world.", -25, 52, -10676200);
+		if (IsPlayerAdmiredProcedure.execute(entity))
+			this.font.draw(poseStack, "" + (int) ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation) + "", 95, 81, -4595262);
+		if (IsPlayerAHeroProcedure.execute(entity))
+			this.font.draw(poseStack, "" + (int) ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation) + "", 95, 81, -5706599);
+		if (IsPlayerHatedProcedure.execute(entity))
+			this.font.draw(poseStack, "" + (int) ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation) + "", 95, 81, -1986641);
+		if (IsPlayerHatedProcedure.execute(entity))
+			this.font.draw(poseStack, "" + (int) ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation) + "", 95, 81, -7459025);
 	}
 
 	@Override

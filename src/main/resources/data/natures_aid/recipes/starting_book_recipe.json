@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "natures_aid:small_leaf"
+    },
+    "1": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "natures_aid:startingbook",
+    "count": 1
+  }
+}

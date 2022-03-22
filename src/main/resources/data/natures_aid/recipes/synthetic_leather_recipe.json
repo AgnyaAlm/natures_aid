@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "natures_aid:cottonleaf_cloth"
+    },
+    "1": {
+      "item": "natures_aid:cottonleaf_cloth"
+    },
+    "2": {
+      "item": "natures_aid:plastic_blob"
+    },
+    "3": {
+      "item": "natures_aid:plastic_blob"
+    }
+  },
+  "result": {
+    "item": "natures_aid:synthetic_leather",
+    "count": 4
+  }
+}

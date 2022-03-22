@@ -14,15 +14,21 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.act.naturesaid.item.WheatFlourItem;
+import net.act.naturesaid.item.VeganGrannybookItem;
+import net.act.naturesaid.item.SyntheticLeatherItem;
+import net.act.naturesaid.item.StartingbookItem;
 import net.act.naturesaid.item.SmallLeafItem;
 import net.act.naturesaid.item.SeitanSteakItem;
 import net.act.naturesaid.item.SeitanDoughItem;
+import net.act.naturesaid.item.RecyclingTrophyItem;
+import net.act.naturesaid.item.RecyclingGrannybookItem;
 import net.act.naturesaid.item.PureCocoItem;
 import net.act.naturesaid.item.PlasticStickItem;
 import net.act.naturesaid.item.PlasticSpoonItem;
 import net.act.naturesaid.item.PlasticBlobItem;
 import net.act.naturesaid.item.OilBottleItem;
 import net.act.naturesaid.item.NaturesaidprevItem;
+import net.act.naturesaid.item.MortarGrannybookItem;
 import net.act.naturesaid.item.MaskorangeItem;
 import net.act.naturesaid.item.MasklightblueItem;
 import net.act.naturesaid.item.MaskgreenItem;
@@ -45,9 +51,13 @@ import net.act.naturesaid.item.IcoAnimatedCosmeticsItem;
 import net.act.naturesaid.item.HalfCoconutItem;
 import net.act.naturesaid.item.CottonleafClothItem;
 import net.act.naturesaid.item.CottonFiberItem;
+import net.act.naturesaid.item.CosmeticGrannybookItem;
 import net.act.naturesaid.item.CoconutMilkItem;
 import net.act.naturesaid.item.CoconutItem;
 import net.act.naturesaid.item.CelluloseFiberItem;
+import net.act.naturesaid.item.BookIconItem;
+import net.act.naturesaid.item.ApplePureeItem;
+import net.act.naturesaid.item.AcornMushItem;
 import net.act.naturesaid.item.AcornItem;
 import net.act.naturesaid.NaturesAidMod;
 
@@ -94,6 +104,16 @@ public class NaturesAidModItems {
 	public static final RegistryObject<Item> MASK_RED_HELMET = REGISTRY.register("mask_red_helmet", () -> new MaskRedItem.Helmet());
 	public static final RegistryObject<Item> MASK_WHITE_HELMET = REGISTRY.register("mask_white_helmet", () -> new MaskWhiteItem.Helmet());
 	public static final RegistryObject<Item> MASK_YELLOW_HELMET = REGISTRY.register("mask_yellow_helmet", () -> new MaskYellowItem.Helmet());
+	public static final RegistryObject<Item> BOOK_ICON = REGISTRY.register("book_icon", () -> new BookIconItem());
+	public static final RegistryObject<Item> MORTAR_GRANNYBOOK = REGISTRY.register("mortar_grannybook", () -> new MortarGrannybookItem());
+	public static final RegistryObject<Item> VEGAN_GRANNYBOOK = REGISTRY.register("vegan_grannybook", () -> new VeganGrannybookItem());
+	public static final RegistryObject<Item> RECYCLING_GRANNYBOOK = REGISTRY.register("recycling_grannybook", () -> new RecyclingGrannybookItem());
+	public static final RegistryObject<Item> COSMETIC_GRANNYBOOK = REGISTRY.register("cosmetic_grannybook", () -> new CosmeticGrannybookItem());
+	public static final RegistryObject<Item> APPLE_PUREE = REGISTRY.register("apple_puree", () -> new ApplePureeItem());
+	public static final RegistryObject<Item> STARTINGBOOK = REGISTRY.register("startingbook", () -> new StartingbookItem());
+	public static final RegistryObject<Item> RECYCLING_TROPHY = REGISTRY.register("recycling_trophy", () -> new RecyclingTrophyItem());
+	public static final RegistryObject<Item> SYNTHETIC_LEATHER = REGISTRY.register("synthetic_leather", () -> new SyntheticLeatherItem());
+	public static final RegistryObject<Item> ACORN_MUSH = REGISTRY.register("acorn_mush", () -> new AcornMushItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

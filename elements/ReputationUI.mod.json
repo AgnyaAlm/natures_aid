@@ -98,6 +98,9 @@
             "value": -1,
             "falpha": 0.0
           },
+          "displayCondition": {
+            "name": "IsPlayerNeutral"
+          },
           "name": "<VAR:integer:stat_reputation>",
           "x": 215,
           "y": 106
@@ -281,6 +284,70 @@
           "name": "The reputation system is disabled in this world.",
           "x": 94,
           "y": 77
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:stat_reputation>",
+          "color": {
+            "value": -4595262,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "IsPlayerAdmired"
+          },
+          "name": "<VAR:integer:stat_reputation>",
+          "x": 215,
+          "y": 106
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:stat_reputation>",
+          "color": {
+            "value": -5706599,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "IsPlayerAHero"
+          },
+          "name": "<VAR:integer:stat_reputation>",
+          "x": 215,
+          "y": 106
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:stat_reputation>",
+          "color": {
+            "value": -1986641,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "IsPlayerHated"
+          },
+          "name": "<VAR:integer:stat_reputation>",
+          "x": 215,
+          "y": 106
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:stat_reputation>",
+          "color": {
+            "value": -7459025,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "IsPlayerHated"
+          },
+          "name": "<VAR:integer:stat_reputation>",
+          "x": 215,
+          "y": 106
         }
       }
     ],

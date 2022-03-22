@@ -7,12 +7,14 @@
     "customModelName": "Normal",
     "name": "Maple Syrup",
     "rarity": "COMMON",
-    "specialInfo": [],
+    "specialInfo": [
+      "§8Alternative to Honey"
+    ],
     "creativeTab": {
       "value": "CUSTOM:VeganAlternatives"
     },
     "stackSize": 16,
-    "nutritionalValue": 4,
+    "nutritionalValue": 6,
     "saturation": 0.3,
     "eatingSpeed": 32,
     "resultItem": {

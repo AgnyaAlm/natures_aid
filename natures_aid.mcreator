@@ -1716,6 +1716,405 @@
         ]
       },
       "path": "~/Reputation System"
+    },
+    {
+      "name": "BookNQuillLFRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_n_quill_lf_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecyclableNetherite",
+      "type": "tag",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recyclable_netherite",
+      "path": "~/Tags"
+    },
+    {
+      "name": "SpecialRecycles",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "special_recycles",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecyclableDiamond",
+      "type": "tag",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recyclable_diamond",
+      "path": "~/Tags"
+    },
+    {
+      "name": "RecyclableDiamondArmor",
+      "type": "tag",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recyclable_diamond_armor",
+      "path": "~/Tags"
+    },
+    {
+      "name": "RecyclableNetheriteArmor",
+      "type": "tag",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recyclable_netherite_armor",
+      "path": "~/Tags"
+    },
+    {
+      "name": "CoconutMilkFoodEaten",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_milk_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BookIcon",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_icon",
+      "path": "~/Items/icons"
+    },
+    {
+      "name": "BookTab",
+      "type": "tab",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_tab"
+    },
+    {
+      "name": "MortarGrannybook",
+      "type": "item",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar_grannybook",
+      "path": "~/Items/Grannys Books"
+    },
+    {
+      "name": "VeganGrannybook",
+      "type": "item",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vegan_grannybook",
+      "path": "~/Items/Grannys Books"
+    },
+    {
+      "name": "RecyclingGrannybook",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recycling_grannybook",
+      "path": "~/Items/Grannys Books"
+    },
+    {
+      "name": "CosmeticGrannybook",
+      "type": "item",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmetic_grannybook",
+      "path": "~/Items/Grannys Books"
+    },
+    {
+      "name": "ApplePuree",
+      "type": "food",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_puree",
+      "path": "~/Items"
+    },
+    {
+      "name": "Startingbook",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "startingbook",
+      "path": "~/Items/Grannys Books"
+    },
+    {
+      "name": "CakeRec1",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_rec_1",
+      "path": "~/Recipes/Cakes"
+    },
+    {
+      "name": "CakeRec2",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_rec_2",
+      "path": "~/Recipes/Cakes"
+    },
+    {
+      "name": "CakeRec3",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_rec_3",
+      "path": "~/Recipes/Cakes"
+    },
+    {
+      "name": "CakeRec4",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_rec_4",
+      "path": "~/Recipes/Cakes"
+    },
+    {
+      "name": "CakeRec5",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_rec_5",
+      "path": "~/Recipes/Cakes"
+    },
+    {
+      "name": "CakeRec6",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_rec_6",
+      "path": "~/Recipes/Cakes"
+    },
+    {
+      "name": "RecyclingTrophy",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recycling_trophy",
+      "path": "~/Items"
+    },
+    {
+      "name": "Eggtag",
+      "type": "tag",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eggtag",
+      "path": "~/Tags"
+    },
+    {
+      "name": "SetRecycledItems",
+      "type": "command",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_recycled_items"
+    },
+    {
+      "name": "SetRecycledExecution",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_recycled_execution",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FirstJoinBook",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_join_book",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Grannys Books"
+    },
+    {
+      "name": "SyntheticLeather",
+      "type": "item",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synthetic_leather",
+      "path": "~/Items"
+    },
+    {
+      "name": "SyntheticLeatherRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synthetic_leather_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "StartingBookRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starting_book_recipe",
+      "path": "~/Items/Grannys Books"
+    },
+    {
+      "name": "AcornMush",
+      "type": "food",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acorn_mush",
+      "path": "~/Items"
+    },
+    {
+      "name": "AcornMushFoodEaten",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acorn_mush_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AcornMushRecipe",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acorn_mush_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MortarGrannyBookRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar_granny_book_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "VeganGrannyBookRecipe",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vegan_granny_book_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecyclingGrannyBookRecipe",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recycling_granny_book_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CosmeticGrannyBookRecipe",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmetic_granny_book_recipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -1730,6 +2129,12 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "1.0"
+    },
+    {
+      "name": "firstjoin",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [],
@@ -1743,22 +2148,23 @@
       "advancements.reputation_admired.title": "Doing good for the planet.",
       "item.natures_aid.mask_magenta_chestplate": "Maskblue Body",
       "item.natures_aid.acorn": "Acorn",
-      "item.natures_aid.maskblue_chestplate": "Maskblue Body",
       "itemGroup.tabnaturesaidtab": "Nature\u0027s Aid Stuff",
+      "item.natures_aid.maskblue_chestplate": "Maskblue Body",
       "gamerule.enableReputation.description": "Choose to enable or disable Nature Aid\u0027s eco-reputation for villagers. You will still lose/gain reputation points, but villagers won\u0027t care and notifications will not appear.",
       "advancements.jungle_coco_adv.descr": "Get a coconut from a jungle tree.",
-      "item.natures_aid.mask_yellow_helmet": "Yellow Mask",
-      "item.natures_aid.mask_magenta_boots": "Maskblue Boots",
       "advancements.maple_adv.title": "Since when are maple leaves green?",
-      "advancements.recyclesecret_adv.title": "A better use!",
+      "item.natures_aid.mask_magenta_boots": "Maskblue Boots",
+      "item.natures_aid.mask_yellow_helmet": "Yellow Mask",
       "item.natures_aid.seitan_dough": "Seitan Dough",
+      "advancements.recyclesecret_adv.title": "A better use!",
       "item.natures_aid.mask_yellow_boots": "Maskblue Boots",
       "item.natures_aid.ico_animated_cosmetics": "Ico Animated Cosmetics",
       "recycle.error.wrongitem": "That item is not recyclable.",
+      "item.natures_aid.recycling_grannybook": "Granny\u0027s Guide to Plastic \u0026 Recycling",
       "item.natures_aid.masklightblue_helmet": "Light Blue Mask",
       "item.natures_aid.masklightblue_boots": "Maskblue Boots",
-      "block.natures_aid.leaf_catcher": "Leaf Catcher",
       "advancements.reputation_hated.descr": "You\u0027ve reached the \"hated\" eco-reputation, now villagers will not want to trade with you. You monster.",
+      "block.natures_aid.leaf_catcher": "Leaf Catcher",
       "advancements.natures_aid_adv.title": "Nature\u0027s Aid",
       "item.natures_aid.maple_sugar": "Maple Sugar",
       "advancements.reputation_hero.descr": "What a hero. You\u0027ve reached the \"Hero of the world\" eco-reputation.",
@@ -1769,6 +2175,7 @@
       "advancements.plastic_start_adv.descr": "Make some plastic blobs using fossil oil in the mortar.",
       "item.natures_aid.maskblack_chestplate": "Maskblue Body",
       "itemGroup.tabcosmetics": "Cosmetics",
+      "item.natures_aid.apple_puree": "Apple Puree",
       "item.natures_aid.plastic_stick": "Plastic Stick",
       "itemGroup.tabplasticstuff": "Plastic Stuff",
       "item.natures_aid.mask_red_chestplate": "Maskblue Body",
@@ -1789,6 +2196,7 @@
       "ecorep.penalty.plasticoceanorbeach": "-5 Eco-Reputation for contaminating near an ocean or beach with plastic. Better if you recyle it.",
       "advancements.squirrel_ach.title": "Do you identify as a squirrel?",
       "item.natures_aid.maple_leaf": "Maple Leaf",
+      "item.natures_aid.cosmetic_grannybook": "Granny\u0027s Guide to Cosmetics",
       "item.natures_aid.half_coconut": "Half Coconut",
       "item.natures_aid.icoadmired": "Admired",
       "ecorep.gain.recycle": "+1 Eco-Reputation for recycling an item you didn\u0027t need.",
@@ -1796,6 +2204,7 @@
       "item.natures_aid.pure_coco": "Coco",
       "mortar.error.noitems": "There are no items to mix!",
       "item.natures_aid.mask_white_leggings": "Maskblue Leggings",
+      "itemGroup.tabbook_tab": "Granny\u0027s Guides to Nature\u0027s Aid",
       "advancements.mortar_adv.descr": "Craft a mortar.",
       "ecorep.gain.sapling": "+1 Eco-Reputation for growing a sapling.",
       "item.natures_aid.plastic_blob": "Plastic Blob",
@@ -1803,11 +2212,13 @@
       "item.natures_aid.mask_yellow_chestplate": "Maskblue Body",
       "item.natures_aid.mask_magenta_helmet": "Magenta Mask",
       "advancements.recycle_adv.descr": "Start recycling! Make a recycling table.",
+      "item.natures_aid.recycling_trophy": "Recycling Trophy",
       "item.natures_aid.leaf_feather": "Leaf Feather",
       "advancements.reputation_admired.descr": "You\u0027ve reached the \"admired\" eco-reputation.",
       "item.natures_aid.maskblack_helmet": "Black Mask",
       "block.natures_aid.maple_block": "Maple Block",
       "item.natures_aid.mask_magenta_leggings": "Maskblue Leggings",
+      "item.natures_aid.book_icon": "BookIcon",
       "advancements.recyclesecret_adv.descr": "You\u0027ve recycled your trophy, you\u0027re pretty dedicated to save the planet!",
       "advancements.leaf_adv.descr": "Collect some leaves from your leaf catcher.",
       "item.natures_aid.mask_red_boots": "Maskblue Boots",
@@ -1829,6 +2240,7 @@
       "advancements.reputation_enemy.descr": "You\u0027ve reached the \"enemy\" eco-reputation, now villagers will not want to trade with you. You monster.",
       "advancements.oil_death.descr": "Don\u0027t try this at home.",
       "block.natures_aid.mortar_and_pestle": "Mortar And Pestle",
+      "item.natures_aid.mortar_grannybook": "Granny\u0027s Guide to Mortar and Pestle",
       "advancements.coconutmilk_adv.descr": "Make coconut milk using 2 pure cocos in the mortar.",
       "advancements.recycledfirst_adv.descr": "Recicle an item you don\u0027t need.",
       "gamerule.enableReputation": "Enable Eco-Reputation for Villagers",
@@ -1841,12 +2253,15 @@
       "advancements.natures_aid_adv.descr": "Start your journey by collecting leaves. Place a leaf catcher.",
       "advancements.recyclesecond_adv.title": "An example to follow",
       "item.natures_aid.small_leaf": "Small Leaf",
+      "item.natures_aid.vegan_grannybook": "Granny\u0027s Guide to Vegan Alternatives",
       "item.natures_aid.coconut": "Coconut",
+      "item.natures_aid.acorn_mush": "Acorn Mush",
       "mortar.error.wrongmix": "That does not seem like a good mix.",
       "advancements.break_coco_adv.descr": "Break a coconut into 2 pieces.",
       "item.natures_aid.maskblack_leggings": "Maskblue Leggings",
       "advancements.plastic_start_adv.title": "Let\u0027s just not throw it into the seas please",
       "advancements.oil_adv.descr": "Create Fossil Oil using 2 bone blocks in the mortar.",
+      "item.natures_aid.synthetic_leather": "Synthetic Leather",
       "advancements.break_coco_adv.title": "Breaking the coconut",
       "item.natures_aid.seitan_steak": "Seitan Steak",
       "advancements.maple_syrup_adv.descr": "Drink Maple Syrup. The vegan honey.",
@@ -1866,6 +2281,154 @@
       "advancements.recycledfirst_adv.title": "Saving the planet",
       "ecorep.villager.no": "Villagers do not want to trade with you because you\u0027ve contaminated too much the enviroment.",
       "item.natures_aid.icoenemy": "Enemy of the world",
+      "item.natures_aid.startingbook": "Starting on Nature\u0027s Aid",
+      "item.natures_aid.mask_red_helmet": "Red Mask",
+      "item.natures_aid.maskorange_chestplate": "Maskblue Body",
+      "advancements.coconutmilk_adv.title": "Coconut milk! Vegan approved."
+    },
+    "es_es": {
+      "item.natures_aid.maskorange_leggings": "Maskblue Leggings",
+      "item.natures_aid.maskgreen_leggings": "Maskblue Leggings",
+      "advancements.recycle_adv.title": "Usa el plastico para recuperar el plastico.",
+      "item.natures_aid.masklightblue_leggings": "Maskblue Leggings",
+      "advancements.reputation_admired.title": "Doing good for the planet.",
+      "item.natures_aid.cotton_fiber": "Cotton Fiber",
+      "item.natures_aid.mask_magenta_chestplate": "Maskblue Body",
+      "item.natures_aid.acorn": "Acorn",
+      "item.natures_aid.maskblue_chestplate": "Maskblue Body",
+      "itemGroup.tabnaturesaidtab": "Nature\u0027s Aid Stuff",
+      "gamerule.enableReputation.description": "Choose to enable or disable Nature Aid\u0027s eco-reputation for villagers. You will still lose/gain reputation points, but villagers won\u0027t care and notifications will not appear.",
+      "advancements.jungle_coco_adv.descr": "Get a coconut from a jungle tree.",
+      "item.natures_aid.mask_yellow_helmet": "Yellow Mask",
+      "item.natures_aid.mask_magenta_boots": "Maskblue Boots",
+      "advancements.maple_adv.title": "Since when are maple leaves green?",
+      "advancements.recyclesecret_adv.title": "A better use!",
+      "item.natures_aid.seitan_dough": "Seitan Dough",
+      "item.natures_aid.mask_yellow_boots": "Maskblue Boots",
+      "item.natures_aid.ico_animated_cosmetics": "Ico Animated Cosmetics",
+      "recycle.error.wrongitem": "That item is not recyclable.",
+      "item.natures_aid.recycling_grannybook": "Granny\u0027s Guide to Plastic \u0026 Recycling",
+      "item.natures_aid.masklightblue_helmet": "Light Blue Mask",
+      "item.natures_aid.masklightblue_boots": "Maskblue Boots",
+      "block.natures_aid.leaf_catcher": "Leaf Catcher",
+      "advancements.reputation_hated.descr": "You\u0027ve reached the \"hated\" eco-reputation, now villagers will not want to trade with you. You monster.",
+      "advancements.natures_aid_adv.title": "Nature\u0027s Aid",
+      "item.natures_aid.maple_sugar": "Maple Sugar",
+      "advancements.reputation_hero.descr": "What a hero. You\u0027ve reached the \"Hero of the world\" eco-reputation.",
+      "item.natures_aid.mask_white_boots": "Maskblue Boots",
+      "advancements.vegan_sugar_adv.title": "Aiming for a vegan lifestyle.",
+      "item.natures_aid.icohero": "Hero of the world",
+      "death.attack.oilintoxication": "%1$s drinked oil and died intoxicated. Don\u0027t try this at home.",
+      "advancements.plastic_start_adv.descr": "Make some plastic blobs using fossil oil in the mortar.",
+      "item.natures_aid.maskblack_chestplate": "Maskblue Body",
+      "itemGroup.tabcosmetics": "Cosmetics",
+      "item.natures_aid.apple_puree": "Apple Puree",
+      "item.natures_aid.plastic_stick": "Plastic Stick",
+      "itemGroup.tabplasticstuff": "Plastic Stuff",
+      "item.natures_aid.mask_red_chestplate": "Maskblue Body",
+      "advancements.vegan_sugar_adv.descr": "Make maple sugar. An alternative to make \"vegan honey\" aka. Maple Syrup.",
+      "item.natures_aid.cellulose_fiber": "Cellulose Fiber",
+      "item.natures_aid.cottonleaf_cloth": "Cotton-Leaf Cloth",
+      "leafcatcher.error.needtree": "You can only place a leaf catcher on a tree.",
+      "advancements.reputation_hated.title": "I don\u0027t care about the planet.",
+      "item.natures_aid.maskblue_helmet": "Blue Mask",
+      "item.natures_aid.wheat_flour": "Wheat Flour",
+      "advancements.recyclesecond_adv.descr": "Recycle 10 items you don\u0027t need.",
+      "item.natures_aid.mask_yellow_leggings": "Maskblue Leggings",
+      "item.natures_aid.maple_syrup": "Maple Syrup",
+      "advancements.maple_syrup_adv.title": "Eh, just like normal honey, but vegan!",
+      "item.natures_aid.maskblue_boots": "Maskblue Boots",
+      "advancements.oil_adv.title": "Going for plastic.",
+      "ecorep.penalty.farmlandtrampled": "-1 Eco-Reputation for intentionally trampling a farmland.",
+      "ecorep.penalty.plasticoceanorbeach": "-5 Eco-Reputation for contaminating near an ocean or beach with plastic. Better if you recyle it.",
+      "advancements.squirrel_ach.title": "Do you identify as a squirrel?",
+      "item.natures_aid.maple_leaf": "Maple Leaf",
+      "item.natures_aid.cosmetic_grannybook": "Granny\u0027s Guide to Cosmetics",
+      "item.natures_aid.half_coconut": "Half Coconut",
+      "item.natures_aid.icoadmired": "Admired",
+      "ecorep.gain.recycle": "+1 Eco-Reputation for recycling an item you didn\u0027t need.",
+      "advancements.recyclethird_adv.title": "A true hero",
+      "item.natures_aid.pure_coco": "Coco",
+      "mortar.error.noitems": "There are no items to mix!",
+      "item.natures_aid.mask_white_leggings": "Maskblue Leggings",
+      "itemGroup.tabbook_tab": "Granny\u0027s Guides to Nature\u0027s Aid",
+      "advancements.mortar_adv.descr": "Craft a mortar.",
+      "ecorep.gain.sapling": "+1 Eco-Reputation for growing a sapling.",
+      "item.natures_aid.plastic_blob": "Plastic Blob",
+      "item.natures_aid.maskgreen_helmet": "Green Mask",
+      "item.natures_aid.mask_yellow_chestplate": "Maskblue Body",
+      "item.natures_aid.mask_magenta_helmet": "Magenta Mask",
+      "advancements.recycle_adv.descr": "Start recycling! Make a recycling table.",
+      "item.natures_aid.recycling_trophy": "Recycling Trophy",
+      "item.natures_aid.leaf_feather": "Leaf Feather",
+      "advancements.reputation_admired.descr": "You\u0027ve reached the \"admired\" eco-reputation.",
+      "item.natures_aid.maskblack_helmet": "Black Mask",
+      "block.natures_aid.maple_block": "Maple Block",
+      "item.natures_aid.mask_magenta_leggings": "Maskblue Leggings",
+      "item.natures_aid.book_icon": "BookIcon",
+      "advancements.recyclesecret_adv.descr": "You\u0027ve recycled your trophy, you\u0027re pretty dedicated to save the planet!",
+      "advancements.leaf_adv.descr": "Collect some leaves from your leaf catcher.",
+      "item.natures_aid.mask_red_boots": "Maskblue Boots",
+      "item.natures_aid.masklightblue_chestplate": "Maskblue Body",
+      "ecorep.penalty.oceanorbeach": "-1 Eco-Reputation for contaminating near an ocean or beach.",
+      "item.natures_aid.naturesaidprev": "Naturesaidprev",
+      "item.natures_aid.mask_red_leggings": "Maskblue Leggings",
+      "key.natures_aid.reputation_key": "Statistics Menu",
+      "item.natures_aid.maskorange_helmet": "Orange Mask",
+      "advancements.jungle_coco_adv.title": "Jungles are pretty useful!",
+      "ecorep.currentrep": "(Current reputation: ",
+      "advancements.squirrel_ach.descr": "Eat an acorn... But why?",
+      "item.natures_aid.maskorange_boots": "Maskblue Boots",
+      "advancements.mortar_adv.title": "Time to mix!",
+      "item.natures_aid.maskblack_boots": "Maskblue Boots",
+      "itemGroup.tabvegan_alternatives": "Vegan Alternatives \u0026 Food",
+      "item.natures_aid.maskgreen_chestplate": "Maskblue Body",
+      "recycle.error.removeitems": "Grab the resulted items before recycling again!",
+      "advancements.reputation_enemy.descr": "You\u0027ve reached the \"enemy\" eco-reputation, now villagers will not want to trade with you. You monster.",
+      "advancements.oil_death.descr": "Don\u0027t try this at home.",
+      "block.natures_aid.mortar_and_pestle": "Mortar And Pestle",
+      "item.natures_aid.mortar_grannybook": "Granny\u0027s Guide to Mortar and Pestle",
+      "advancements.coconutmilk_adv.descr": "Make coconut milk using 2 pure cocos in the mortar.",
+      "advancements.recycledfirst_adv.descr": "Recicle an item you don\u0027t need.",
+      "gamerule.enableReputation": "Enable Eco-Reputation for Villagers",
+      "item.natures_aid.coconut_milk": "Coconut Milk",
+      "key.categories.naturesaid": "Nature\u0027s Aid",
+      "advancements.leaf_paper_adv.descr": "Craft ecological paper (Leaf Paper)",
+      "advancements.recyclethird_adv.descr": "Recycle 100 items. You deserve a trophy!",
+      "item.natures_aid.icohated": "Hated",
+      "item.natures_aid.plastic_spoon": "Plastic Spoon",
+      "advancements.natures_aid_adv.descr": "Start your journey by collecting leaves. Place a leaf catcher.",
+      "advancements.recyclesecond_adv.title": "An example to follow",
+      "item.natures_aid.small_leaf": "Small Leaf",
+      "item.natures_aid.vegan_grannybook": "Granny\u0027s Guide to Vegan Alternatives",
+      "item.natures_aid.coconut": "Coconut",
+      "item.natures_aid.acorn_mush": "Acorn Mush",
+      "mortar.error.wrongmix": "That does not seem like a good mix.",
+      "advancements.break_coco_adv.descr": "Break a coconut into 2 pieces.",
+      "item.natures_aid.maskblack_leggings": "Maskblue Leggings",
+      "advancements.plastic_start_adv.title": "Let\u0027s just not throw it into the seas please",
+      "advancements.oil_adv.descr": "Create Fossil Oil using 2 bone blocks in the mortar.",
+      "item.natures_aid.synthetic_leather": "Synthetic Leather",
+      "advancements.break_coco_adv.title": "Breaking the coconut",
+      "item.natures_aid.seitan_steak": "Seitan Steak",
+      "advancements.maple_syrup_adv.descr": "Drink Maple Syrup. The vegan honey.",
+      "item.natures_aid.maskblue_leggings": "Maskblue Leggings",
+      "item.natures_aid.mask_white_helmet": "White Mask",
+      "item.natures_aid.oil_bottle": "Fossil Oil Bottle",
+      "block.natures_aid.recycling_table": "Recycling Table",
+      "advancements.oil_death.title": "Why would you drink oil??",
+      "advancements.reputation_hero.title": "They love me!",
+      "advancements.reputation_enemy.title": "Everybody\u0027s enemy",
+      "item.natures_aid.leafpaper": "Leaf Paper",
+      "advancements.maple_adv.descr": "Collect a maple leaf from your Leaf Catcher.",
+      "item.natures_aid.mask_white_chestplate": "Maskblue Body",
+      "advancements.leaf_adv.title": "Why would I hurt the trees?",
+      "item.natures_aid.maskgreen_boots": "Maskblue Boots",
+      "advancements.leaf_paper_adv.title": "No sugar canes were abused",
+      "advancements.recycledfirst_adv.title": "Saving the planet",
+      "ecorep.villager.no": "Villagers do not want to trade with you because you\u0027ve contaminated too much the enviroment.",
+      "item.natures_aid.icoenemy": "Enemy of the world",
+      "item.natures_aid.startingbook": "Starting on Nature\u0027s Aid",
       "item.natures_aid.mask_red_helmet": "Red Mask",
       "item.natures_aid.maskorange_chestplate": "Maskblue Body",
       "advancements.coconutmilk_adv.title": "Coconut milk! Vegan approved."
@@ -1896,6 +2459,10 @@
           {
             "name": "icons",
             "children": []
+          },
+          {
+            "name": "Grannys Books",
+            "children": []
           }
         ]
       },
@@ -1904,6 +2471,10 @@
         "children": [
           {
             "name": "Mask colors",
+            "children": []
+          },
+          {
+            "name": "Cakes",
             "children": []
           }
         ]
@@ -1923,16 +2494,29 @@
       {
         "name": "Cosmetic Masks",
         "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "BOOK UI",
+        "children": [
+          {
+            "name": "Starter Book",
+            "children": []
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "natures_aid",
     "modName": "Nature\u0027s Aid",
-    "version": "22.3.9",
-    "description": "A natural revamp of Minecraft.",
+    "version": "22.3.21",
+    "description": "A brand new way to play Minecraft in an ecological way.",
     "author": "Alm, ACT",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/natures-aid",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

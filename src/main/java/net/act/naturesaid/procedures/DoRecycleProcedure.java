@@ -36,6 +36,7 @@ public class DoRecycleProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
+		SpecialRecyclesProcedure.execute(world, x, y, z, entity);
 		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
 				? ((Slot) _slt.get(0)).getItem()
 				: ItemStack.EMPTY).getItem() == NaturesAidModItems.PLASTIC_SPOON.get()) {
@@ -81,6 +82,8 @@ public class DoRecycleProcedure {
 					});
 				}
 				CheckVariableRecycleProcedure.execute(world, x, y, z, entity);
+				if (world instanceof Level _level && !_level.isClientSide())
+					_level.addFreshEntity(new ExperienceOrb(_level, x, y, z, 10));
 			} else {
 				if (entity instanceof Player _player && !_player.level.isClientSide())
 					_player.displayClientMessage(new TextComponent(("\u00A7c" + new TranslatableComponent("recycle.error.removeitems").getString())),
@@ -94,8 +97,6 @@ public class DoRecycleProcedure {
 								SoundSource.NEUTRAL, 1, 1, false);
 					}
 				}
-				if (world instanceof Level _level && !_level.isClientSide())
-					_level.addFreshEntity(new ExperienceOrb(_level, x, y, z, 10));
 			}
 		} else if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 				&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() instanceof SwordItem) {

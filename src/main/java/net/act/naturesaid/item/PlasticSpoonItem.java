@@ -67,6 +67,6 @@ public class PlasticSpoonItem extends ShovelItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("\u00A77Used to extract coco with a crafting table."));
+		list.add(new TextComponent("\u00A78Used to extract coco from a broken coconut."));
 	}
 }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ink_sac"
+    },
+    "1": {
+      "item": "minecraft:book"
+    },
+    "3": {
+      "item": "natures_aid:leaf_feather"
+    }
+  },
+  "result": {
+    "item": "minecraft:writable_book",
+    "count": 1
+  }
+}

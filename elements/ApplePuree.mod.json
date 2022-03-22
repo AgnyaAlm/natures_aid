@@ -1,0 +1,28 @@
+{
+  "_fv": 25,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "applepuree",
+    "customModelName": "Normal",
+    "name": "Apple Puree",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "§8Alternative to eggs."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:VeganAlternatives"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

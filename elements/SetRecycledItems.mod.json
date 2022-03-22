@@ -1,0 +1,11 @@
+{
+  "_fv": 25,
+  "_type": "command",
+  "definition": {
+    "commandName": "setrecycled",
+    "permissionLevel": "4",
+    "onCommandExecuted": {
+      "name": "SetReputationCommandExecuted"
+    }
+  }
+}
