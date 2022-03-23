@@ -343,7 +343,7 @@
             "falpha": 0.0
           },
           "displayCondition": {
-            "name": "IsPlayerHated"
+            "name": "IsPlayerAnEnemy"
           },
           "name": "<VAR:integer:stat_reputation>",
           "x": 215,

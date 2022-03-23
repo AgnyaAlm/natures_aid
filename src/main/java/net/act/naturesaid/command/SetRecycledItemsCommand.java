@@ -13,7 +13,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.commands.Commands;
 import net.minecraft.commands.CommandSourceStack;
 
-import net.act.naturesaid.procedures.SetReputationCommandExecutedProcedure;
+import net.act.naturesaid.procedures.SetRecycledExecutionProcedure;
 
 import java.util.HashMap;
 import java.util.Arrays;
@@ -47,7 +47,7 @@ public class SetRecycledItemsCommand {
 			index[0]++;
 		});
 
-		SetReputationCommandExecutedProcedure.execute(entity, cmdparams);
+		SetRecycledExecutionProcedure.execute(entity, cmdparams);
 		return 0;
 	}
 }

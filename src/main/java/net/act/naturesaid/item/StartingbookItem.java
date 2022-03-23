@@ -9,7 +9,7 @@ import net.act.naturesaid.init.NaturesAidModTabs;
 
 public class StartingbookItem extends Item {
 	public StartingbookItem() {
-		super(new Item.Properties().tab(NaturesAidModTabs.TAB_NATURESAIDTAB).stacksTo(1).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().tab(NaturesAidModTabs.TAB_BOOK_TAB).stacksTo(1).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

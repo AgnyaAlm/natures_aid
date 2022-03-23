@@ -80,6 +80,8 @@ public class NaturesAidModItems {
 	public static final RegistryObject<Item> PLASTIC_BLOB = REGISTRY.register("plastic_blob", () -> new PlasticBlobItem());
 	public static final RegistryObject<Item> PLASTIC_STICK = REGISTRY.register("plastic_stick", () -> new PlasticStickItem());
 	public static final RegistryObject<Item> PLASTIC_SPOON = REGISTRY.register("plastic_spoon", () -> new PlasticSpoonItem());
+	public static final RegistryObject<Item> RECYCLING_TROPHY = REGISTRY.register("recycling_trophy", () -> new RecyclingTrophyItem());
+	public static final RegistryObject<Item> ACORN_MUSH = REGISTRY.register("acorn_mush", () -> new AcornMushItem());
 	public static final RegistryObject<Item> MAPLE_SUGAR = REGISTRY.register("maple_sugar", () -> new MapleSugarItem());
 	public static final RegistryObject<Item> MAPLE_SYRUP = REGISTRY.register("maple_syrup", () -> new MapleSyrupItem());
 	public static final RegistryObject<Item> MAPLE_BLOCK = block(NaturesAidModBlocks.MAPLE_BLOCK, NaturesAidModTabs.TAB_VEGAN_ALTERNATIVES);
@@ -87,14 +89,9 @@ public class NaturesAidModItems {
 	public static final RegistryObject<Item> WHEAT_FLOUR = REGISTRY.register("wheat_flour", () -> new WheatFlourItem());
 	public static final RegistryObject<Item> SEITAN_DOUGH = REGISTRY.register("seitan_dough", () -> new SeitanDoughItem());
 	public static final RegistryObject<Item> SEITAN_STEAK = REGISTRY.register("seitan_steak", () -> new SeitanSteakItem());
-	public static final RegistryObject<Item> NATURESAIDPREV = REGISTRY.register("naturesaidprev", () -> new NaturesaidprevItem());
-	public static final RegistryObject<Item> ICOENEMY = REGISTRY.register("icoenemy", () -> new IcoenemyItem());
-	public static final RegistryObject<Item> ICOHATED = REGISTRY.register("icohated", () -> new IcohatedItem());
-	public static final RegistryObject<Item> ICOADMIRED = REGISTRY.register("icoadmired", () -> new IcoadmiredItem());
-	public static final RegistryObject<Item> ICOHERO = REGISTRY.register("icohero", () -> new IcoheroItem());
-	public static final RegistryObject<Item> ICO_ANIMATED_COSMETICS = REGISTRY.register("ico_animated_cosmetics",
-			() -> new IcoAnimatedCosmeticsItem());
 	public static final RegistryObject<Item> LEAF_FEATHER = REGISTRY.register("leaf_feather", () -> new LeafFeatherItem());
+	public static final RegistryObject<Item> APPLE_PUREE = REGISTRY.register("apple_puree", () -> new ApplePureeItem());
+	public static final RegistryObject<Item> SYNTHETIC_LEATHER = REGISTRY.register("synthetic_leather", () -> new SyntheticLeatherItem());
 	public static final RegistryObject<Item> MASKBLUE_HELMET = REGISTRY.register("maskblue_helmet", () -> new MaskblueItem.Helmet());
 	public static final RegistryObject<Item> MASKBLACK_HELMET = REGISTRY.register("maskblack_helmet", () -> new MaskblackItem.Helmet());
 	public static final RegistryObject<Item> MASKGREEN_HELMET = REGISTRY.register("maskgreen_helmet", () -> new MaskgreenItem.Helmet());
@@ -104,16 +101,19 @@ public class NaturesAidModItems {
 	public static final RegistryObject<Item> MASK_RED_HELMET = REGISTRY.register("mask_red_helmet", () -> new MaskRedItem.Helmet());
 	public static final RegistryObject<Item> MASK_WHITE_HELMET = REGISTRY.register("mask_white_helmet", () -> new MaskWhiteItem.Helmet());
 	public static final RegistryObject<Item> MASK_YELLOW_HELMET = REGISTRY.register("mask_yellow_helmet", () -> new MaskYellowItem.Helmet());
-	public static final RegistryObject<Item> BOOK_ICON = REGISTRY.register("book_icon", () -> new BookIconItem());
+	public static final RegistryObject<Item> STARTINGBOOK = REGISTRY.register("startingbook", () -> new StartingbookItem());
 	public static final RegistryObject<Item> MORTAR_GRANNYBOOK = REGISTRY.register("mortar_grannybook", () -> new MortarGrannybookItem());
 	public static final RegistryObject<Item> VEGAN_GRANNYBOOK = REGISTRY.register("vegan_grannybook", () -> new VeganGrannybookItem());
 	public static final RegistryObject<Item> RECYCLING_GRANNYBOOK = REGISTRY.register("recycling_grannybook", () -> new RecyclingGrannybookItem());
 	public static final RegistryObject<Item> COSMETIC_GRANNYBOOK = REGISTRY.register("cosmetic_grannybook", () -> new CosmeticGrannybookItem());
-	public static final RegistryObject<Item> APPLE_PUREE = REGISTRY.register("apple_puree", () -> new ApplePureeItem());
-	public static final RegistryObject<Item> STARTINGBOOK = REGISTRY.register("startingbook", () -> new StartingbookItem());
-	public static final RegistryObject<Item> RECYCLING_TROPHY = REGISTRY.register("recycling_trophy", () -> new RecyclingTrophyItem());
-	public static final RegistryObject<Item> SYNTHETIC_LEATHER = REGISTRY.register("synthetic_leather", () -> new SyntheticLeatherItem());
-	public static final RegistryObject<Item> ACORN_MUSH = REGISTRY.register("acorn_mush", () -> new AcornMushItem());
+	public static final RegistryObject<Item> NATURESAIDPREV = REGISTRY.register("naturesaidprev", () -> new NaturesaidprevItem());
+	public static final RegistryObject<Item> ICOENEMY = REGISTRY.register("icoenemy", () -> new IcoenemyItem());
+	public static final RegistryObject<Item> ICOHATED = REGISTRY.register("icohated", () -> new IcohatedItem());
+	public static final RegistryObject<Item> ICOADMIRED = REGISTRY.register("icoadmired", () -> new IcoadmiredItem());
+	public static final RegistryObject<Item> ICOHERO = REGISTRY.register("icohero", () -> new IcoheroItem());
+	public static final RegistryObject<Item> ICO_ANIMATED_COSMETICS = REGISTRY.register("ico_animated_cosmetics",
+			() -> new IcoAnimatedCosmeticsItem());
+	public static final RegistryObject<Item> BOOK_ICON = REGISTRY.register("book_icon", () -> new BookIconItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

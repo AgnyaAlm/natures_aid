@@ -14,7 +14,7 @@
       "value": "CUSTOM:VeganAlternatives"
     },
     "stackSize": 1,
-    "nutritionalValue": 1,
+    "nutritionalValue": 0,
     "saturation": 0.3,
     "eatingSpeed": 32,
     "resultItem": {

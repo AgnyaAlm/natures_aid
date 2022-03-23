@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:planks"
+    },
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "2": {
+      "item": "natures_aid:plastic_blob"
+    },
+    "3": {
+      "item": "natures_aid:plastic_blob"
+    }
+  },
+  "result": {
+    "item": "natures_aid:recycling_table",
+    "count": 1
+  }
+}

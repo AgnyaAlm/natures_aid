@@ -141,7 +141,7 @@ public class ReputationUIScreen extends AbstractContainerScreen<ReputationUIMenu
 		if (IsPlayerHatedProcedure.execute(entity))
 			this.font.draw(poseStack, "" + (int) ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 					.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation) + "", 95, 81, -1986641);
-		if (IsPlayerHatedProcedure.execute(entity))
+		if (IsPlayerAnEnemyProcedure.execute(entity))
 			this.font.draw(poseStack, "" + (int) ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 					.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation) + "", 95, 81, -7459025);
 	}

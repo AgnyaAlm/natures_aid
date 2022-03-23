@@ -8,7 +8,7 @@
     "name": "Starting on Nature's Aid",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "CUSTOM:Naturesaidtab"
+      "value": "CUSTOM:BookTab"
     },
     "stackSize": 1,
     "enchantability": 0,

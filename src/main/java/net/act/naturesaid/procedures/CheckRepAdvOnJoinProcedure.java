@@ -67,6 +67,22 @@ public class CheckRepAdvOnJoinProcedure {
 							_player.getAdvancements().award(_adv, (String) _iterator.next());
 					}
 				}
+				if (!(entity instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
+						? _plr.getAdvancements()
+								.getOrStartProgress(
+										_plr.server.getAdvancements().getAdvancement(new ResourceLocation("natures_aid:reputation_hated")))
+								.isDone()
+						: false)) {
+					if (entity instanceof ServerPlayer _player) {
+						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("natures_aid:reputation_hated"));
+						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+						if (!_ap.isDone()) {
+							Iterator _iterator = _ap.getRemainingCriteria().iterator();
+							while (_iterator.hasNext())
+								_player.getAdvancements().award(_adv, (String) _iterator.next());
+						}
+					}
+				}
 			}
 		} else if ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_reputation > 10
@@ -101,6 +117,22 @@ public class CheckRepAdvOnJoinProcedure {
 						Iterator _iterator = _ap.getRemainingCriteria().iterator();
 						while (_iterator.hasNext())
 							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+				if (!(entity instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
+						? _plr.getAdvancements()
+								.getOrStartProgress(
+										_plr.server.getAdvancements().getAdvancement(new ResourceLocation("natures_aid:reputation_admired")))
+								.isDone()
+						: false)) {
+					if (entity instanceof ServerPlayer _player) {
+						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("natures_aid:reputation_admired"));
+						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+						if (!_ap.isDone()) {
+							Iterator _iterator = _ap.getRemainingCriteria().iterator();
+							while (_iterator.hasNext())
+								_player.getAdvancements().award(_adv, (String) _iterator.next());
+						}
 					}
 				}
 			}

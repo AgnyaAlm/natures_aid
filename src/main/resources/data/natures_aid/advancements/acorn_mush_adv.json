@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "natures_aid:acorn_mush"
+    },
+    "title": {
+      "translate": "advancements.acorn_mush_adv.title"
+    },
+    "description": {
+      "translate": "advancements.acorn_mush_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "acorn_mush_adv": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "natures_aid:acorn_mush"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "natures_aid:squirrel_ach"
+}

@@ -87,13 +87,13 @@ public class LeafCatcherBlock extends Block
 		switch ((Direction) state.getValue(FACING)) {
 			case SOUTH :
 			default :
-				return box(5, 0, 0, 16, 16, 16).move(offset.x, offset.y, offset.z);
+				return box(0, 0, 0, 16, 11, 16).move(offset.x, offset.y, offset.z);
 			case NORTH :
-				return box(0, 0, 0, 11, 16, 16).move(offset.x, offset.y, offset.z);
+				return box(0, 0, 0, 16, 11, 16).move(offset.x, offset.y, offset.z);
 			case EAST :
-				return box(0, 0, 0, 16, 16, 11).move(offset.x, offset.y, offset.z);
+				return box(0, 0, 0, 16, 11, 16).move(offset.x, offset.y, offset.z);
 			case WEST :
-				return box(0, 0, 5, 16, 16, 16).move(offset.x, offset.y, offset.z);
+				return box(0, 0, 0, 16, 11, 16).move(offset.x, offset.y, offset.z);
 		}
 	}
 
