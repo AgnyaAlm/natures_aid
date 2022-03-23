@@ -1,0 +1,12 @@
+{
+  "booksfx": {
+    "category": "neutral",
+    "subtitle": "subtitles.booksfx",
+    "sounds": [
+      {
+        "name": "natures_aid:booksound",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 25,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "alcoholbottle",
+    "customModelName": "Normal",
+    "name": "Alcohol Bottle",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "§8Can be used as fuel or used to turn synthetic leather into normal leather."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Naturesaidtab"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": "Items.GLASS_BOTTLE"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "AlcoholDrunkEffect"
+    }
+  }
+}

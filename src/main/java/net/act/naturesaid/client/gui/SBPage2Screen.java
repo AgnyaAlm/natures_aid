@@ -11,19 +11,19 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
-import net.act.naturesaid.world.inventory.SBFirstPageMenu;
-import net.act.naturesaid.network.SBFirstPageButtonMessage;
+import net.act.naturesaid.world.inventory.SBPage2Menu;
+import net.act.naturesaid.network.SBPage2ButtonMessage;
 import net.act.naturesaid.NaturesAidMod;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class SBFirstPageScreen extends AbstractContainerScreen<SBFirstPageMenu> {
+public class SBPage2Screen extends AbstractContainerScreen<SBPage2Menu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public SBFirstPageScreen(SBFirstPageMenu container, Inventory inventory, Component text) {
+	public SBPage2Screen(SBPage2Menu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -47,7 +47,7 @@ public class SBFirstPageScreen extends AbstractContainerScreen<SBFirstPageMenu> 
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("natures_aid:textures/starter_page1.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("natures_aid:textures/starter_page2.png"));
 		this.blit(ms, this.leftPos + -121, this.topPos + -87, 0, 0, 244, 152, 244, 152);
 
 		RenderSystem.disableBlend();
@@ -81,10 +81,10 @@ public class SBFirstPageScreen extends AbstractContainerScreen<SBFirstPageMenu> 
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 92, this.topPos + 67, 30, 20, new TextComponent(">"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + -121, this.topPos + 67, 30, 20, new TextComponent("<"), e -> {
 			if (true) {
-				NaturesAidMod.PACKET_HANDLER.sendToServer(new SBFirstPageButtonMessage(0, x, y, z));
-				SBFirstPageButtonMessage.handleButtonAction(entity, 0, x, y, z);
+				NaturesAidMod.PACKET_HANDLER.sendToServer(new SBPage2ButtonMessage(0, x, y, z));
+				SBPage2ButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
 	}

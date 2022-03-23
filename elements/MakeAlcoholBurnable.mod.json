@@ -1,0 +1,10 @@
+{
+  "_fv": 25,
+  "_type": "fuel",
+  "definition": {
+    "power": 3400,
+    "block": {
+      "value": "CUSTOM:AlcoholBottle"
+    }
+  }
+}

@@ -12,6 +12,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
+import net.act.naturesaid.world.inventory.SBPage2Menu;
 import net.act.naturesaid.world.inventory.SBFirstPageMenu;
 import net.act.naturesaid.world.inventory.ReputationUIMenu;
 import net.act.naturesaid.world.inventory.RecycleTableUIMenu;
@@ -33,6 +34,7 @@ public class NaturesAidModMenus {
 			(id, inv, extraData) -> new ReputationUIMenu(id, inv, extraData));
 	public static final MenuType<SBFirstPageMenu> SB_FIRST_PAGE = register("sb_first_page",
 			(id, inv, extraData) -> new SBFirstPageMenu(id, inv, extraData));
+	public static final MenuType<SBPage2Menu> SB_PAGE_2 = register("sb_page_2", (id, inv, extraData) -> new SBPage2Menu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

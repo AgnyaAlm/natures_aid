@@ -13,9 +13,9 @@
       {
         "type": "image",
         "data": {
-          "image": "starter_page1.png",
+          "image": "starter_page2.png",
           "use1Xscale": true,
-          "name": "starter_page1.png",
+          "name": "starter_page2.png",
           "x": 92,
           "y": 33
         }
@@ -23,14 +23,14 @@
       {
         "type": "button",
         "data": {
-          "text": ">",
+          "text": "<",
           "onClick": {
-            "name": "SBOpenPage2"
+            "name": "SBOpenPage1"
           },
           "width": 30,
           "height": 20,
-          "name": ">",
-          "x": 306,
+          "name": "<",
+          "x": 92,
           "y": 187
         }
       }

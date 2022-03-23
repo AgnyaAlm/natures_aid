@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.act.naturesaid.client.gui.SBPage2Screen;
 import net.act.naturesaid.client.gui.SBFirstPageScreen;
 import net.act.naturesaid.client.gui.ReputationUIScreen;
 import net.act.naturesaid.client.gui.RecycleTableUIScreen;
@@ -27,6 +28,7 @@ public class NaturesAidModScreens {
 			MenuScreens.register(NaturesAidModMenus.RECYCLE_TABLE_UI, RecycleTableUIScreen::new);
 			MenuScreens.register(NaturesAidModMenus.REPUTATION_UI, ReputationUIScreen::new);
 			MenuScreens.register(NaturesAidModMenus.SB_FIRST_PAGE, SBFirstPageScreen::new);
+			MenuScreens.register(NaturesAidModMenus.SB_PAGE_2, SBPage2Screen::new);
 		});
 	}
 }

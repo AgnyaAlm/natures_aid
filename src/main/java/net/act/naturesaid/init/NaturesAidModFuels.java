@@ -18,5 +18,7 @@ public class NaturesAidModFuels {
 			event.setBurnTime(80);
 		else if (event.getItemStack().getItem() == NaturesAidModItems.LEAF_FEATHER.get())
 			event.setBurnTime(120);
+		else if (event.getItemStack().getItem() == NaturesAidModItems.ALCOHOL_BOTTLE.get())
+			event.setBurnTime(3400);
 	}
 }

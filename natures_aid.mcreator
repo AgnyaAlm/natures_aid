@@ -12,7 +12,7 @@
     {
       "name": "LeafCatcherInventory",
       "type": "gui",
-      "sortid": 44,
+      "sortid": 45,
       "compiles": true,
       "locked_code": true,
       "registry_name": "leaf_catcher_inventory",
@@ -21,7 +21,7 @@
     {
       "name": "LeafCatcherBlockPlaced",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaf_catcher_block_placed",
@@ -50,7 +50,7 @@
     {
       "name": "LeafCatcherNeighbourBlockChanges",
       "type": "procedure",
-      "sortid": 46,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaf_catcher_neighbour_block_changes",
@@ -79,7 +79,7 @@
     {
       "name": "LeafCatcherRecipe",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaf_catcher_recipe",
@@ -88,7 +88,7 @@
     {
       "name": "Naturesaidtab",
       "type": "tab",
-      "sortid": 48,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "naturesaidtab"
@@ -96,7 +96,7 @@
     {
       "name": "Naturesaidprev",
       "type": "item",
-      "sortid": 49,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "naturesaidprev",
@@ -114,7 +114,7 @@
     {
       "name": "Leafparticle",
       "type": "particle",
-      "sortid": 50,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leafparticle",
@@ -123,7 +123,7 @@
     {
       "name": "LeafCatcherTick",
       "type": "procedure",
-      "sortid": 51,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaf_catcher_tick",
@@ -152,7 +152,7 @@
     {
       "name": "Oakleavesrecipe",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oakleavesrecipe",
@@ -161,7 +161,7 @@
     {
       "name": "Leafpaper",
       "type": "item",
-      "sortid": 10,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leafpaper",
@@ -170,7 +170,7 @@
     {
       "name": "LeafpaperRecipe",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leafpaper_recipe",
@@ -179,7 +179,7 @@
     {
       "name": "LeafpaperToPaperRecipe",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leafpaper_to_paper_recipe",
@@ -197,7 +197,7 @@
     {
       "name": "MortarAndPestleRecipe",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mortar_and_pestle_recipe",
@@ -206,7 +206,7 @@
     {
       "name": "MortarUIMix",
       "type": "procedure",
-      "sortid": 56,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mortar_ui_mix",
@@ -239,7 +239,7 @@
     {
       "name": "MortarGUI",
       "type": "gui",
-      "sortid": 57,
+      "sortid": 58,
       "compiles": true,
       "locked_code": true,
       "registry_name": "mortar_gui",
@@ -248,7 +248,7 @@
     {
       "name": "NaturesAidAdv",
       "type": "achievement",
-      "sortid": 58,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "natures_aid_adv",
@@ -257,7 +257,7 @@
     {
       "name": "LeafAdv",
       "type": "achievement",
-      "sortid": 59,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaf_adv",
@@ -266,7 +266,7 @@
     {
       "name": "MortarAdv",
       "type": "achievement",
-      "sortid": 60,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mortar_adv",
@@ -275,7 +275,7 @@
     {
       "name": "LeafPaperAdv",
       "type": "achievement",
-      "sortid": 61,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaf_paper_adv",
@@ -302,7 +302,7 @@
     {
       "name": "SquirrelAch",
       "type": "achievement",
-      "sortid": 62,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "squirrel_ach",
@@ -320,7 +320,7 @@
     {
       "name": "MapleSugar",
       "type": "item",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_sugar",
@@ -329,7 +329,7 @@
     {
       "name": "MapleBlock",
       "type": "block",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_block",
@@ -338,7 +338,7 @@
     {
       "name": "MapleSyrupDrinked",
       "type": "procedure",
-      "sortid": 63,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_syrup_drinked",
@@ -355,7 +355,7 @@
     {
       "name": "MapleSyrup",
       "type": "food",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_syrup",
@@ -364,7 +364,7 @@
     {
       "name": "MapleSyrupRecipe",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_syrup_recipe",
@@ -373,7 +373,7 @@
     {
       "name": "MapleBlockRecipe",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_block_recipe",
@@ -382,7 +382,7 @@
     {
       "name": "SyrupFromBlockRecipe",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "syrup_from_block_recipe",
@@ -391,7 +391,7 @@
     {
       "name": "MapleAdv",
       "type": "achievement",
-      "sortid": 67,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_adv",
@@ -400,7 +400,7 @@
     {
       "name": "VeganSugarAdv",
       "type": "achievement",
-      "sortid": 68,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vegan_sugar_adv",
@@ -409,7 +409,7 @@
     {
       "name": "MapleSyrupAdv",
       "type": "achievement",
-      "sortid": 69,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_syrup_adv",
@@ -436,7 +436,7 @@
     {
       "name": "CoconutBreak",
       "type": "procedure",
-      "sortid": 70,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_break",
@@ -469,7 +469,7 @@
     {
       "name": "PlasticBlob",
       "type": "item",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_blob",
@@ -478,7 +478,7 @@
     {
       "name": "PlasticSpoon",
       "type": "tool",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_spoon",
@@ -487,7 +487,7 @@
     {
       "name": "PlasticStick",
       "type": "item",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stick",
@@ -505,7 +505,7 @@
     {
       "name": "CocoExtract",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coco_extract",
@@ -514,7 +514,7 @@
     {
       "name": "PlasticStickRecipe",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_stick_recipe",
@@ -523,7 +523,7 @@
     {
       "name": "PlasticSpoonRecipe",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_spoon_recipe",
@@ -532,7 +532,7 @@
     {
       "name": "OilInstantDeath",
       "type": "procedure",
-      "sortid": 74,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oil_instant_death",
@@ -548,7 +548,7 @@
     {
       "name": "OilBottle",
       "type": "food",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oil_bottle"
@@ -556,7 +556,7 @@
     {
       "name": "OilDeath",
       "type": "achievement",
-      "sortid": 75,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oil_death",
@@ -565,7 +565,7 @@
     {
       "name": "OilAdv",
       "type": "achievement",
-      "sortid": 76,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oil_adv"
@@ -573,7 +573,7 @@
     {
       "name": "JungleCocoAdv",
       "type": "achievement",
-      "sortid": 77,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jungle_coco_adv",
@@ -582,7 +582,7 @@
     {
       "name": "BreakCocoAdv",
       "type": "achievement",
-      "sortid": 78,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "break_coco_adv",
@@ -591,7 +591,7 @@
     {
       "name": "CoconutMilk",
       "type": "food",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_milk",
@@ -600,7 +600,7 @@
     {
       "name": "CoconutmilkAdv",
       "type": "achievement",
-      "sortid": 79,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconutmilk_adv",
@@ -609,7 +609,7 @@
     {
       "name": "RecyclingTable",
       "type": "block",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recycling_table",
@@ -618,7 +618,7 @@
     {
       "name": "PlasticStartAdv",
       "type": "achievement",
-      "sortid": 80,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_start_adv",
@@ -627,7 +627,7 @@
     {
       "name": "RecycleAdv",
       "type": "achievement",
-      "sortid": 81,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recycle_adv",
@@ -636,7 +636,7 @@
     {
       "name": "Jungleleavesrecipe",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jungleleavesrecipe",
@@ -645,7 +645,7 @@
     {
       "name": "BirchleavesRecipe",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "birchleaves_recipe",
@@ -654,7 +654,7 @@
     {
       "name": "SprucelavesRecipe",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sprucelaves_recipe",
@@ -663,7 +663,7 @@
     {
       "name": "RecycledfirstAdv",
       "type": "achievement",
-      "sortid": 85,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recycledfirst_adv",
@@ -672,7 +672,7 @@
     {
       "name": "RecyclesecondAdv",
       "type": "achievement",
-      "sortid": 86,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recyclesecond_adv",
@@ -681,7 +681,7 @@
     {
       "name": "RecyclethirdAdv",
       "type": "achievement",
-      "sortid": 87,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recyclethird_adv",
@@ -690,7 +690,7 @@
     {
       "name": "RecyclesecretAdv",
       "type": "achievement",
-      "sortid": 88,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recyclesecret_adv",
@@ -699,7 +699,7 @@
     {
       "name": "RecycleTableUI",
       "type": "gui",
-      "sortid": 89,
+      "sortid": 90,
       "compiles": true,
       "locked_code": true,
       "registry_name": "recycle_table_ui",
@@ -708,7 +708,7 @@
     {
       "name": "RecyclingTableOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 90,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recycling_table_on_block_right_clicked",
@@ -737,7 +737,7 @@
     {
       "name": "DoRecycle",
       "type": "procedure",
-      "sortid": 91,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "do_recycle",
@@ -770,7 +770,7 @@
     {
       "name": "CheckVariableRecycle",
       "type": "procedure",
-      "sortid": 92,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "check_variable_recycle",
@@ -803,7 +803,7 @@
     {
       "name": "ItemThrownWater",
       "type": "procedure",
-      "sortid": 93,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_thrown_water",
@@ -840,7 +840,7 @@
     {
       "name": "EnableReputation",
       "type": "gamerule",
-      "sortid": 94,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enableReputation",
@@ -852,7 +852,7 @@
     {
       "name": "VillagerLowRepInteraction",
       "type": "procedure",
-      "sortid": 95,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "villager_low_rep_interaction",
@@ -888,7 +888,7 @@
     {
       "name": "ReputationUI",
       "type": "gui",
-      "sortid": 96,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reputation_ui",
@@ -897,7 +897,7 @@
     {
       "name": "IsPlayerNeutral",
       "type": "procedure",
-      "sortid": 97,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_player_neutral",
@@ -915,7 +915,7 @@
     {
       "name": "IsPlayerAdmired",
       "type": "procedure",
-      "sortid": 98,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_player_admired",
@@ -933,7 +933,7 @@
     {
       "name": "IsPlayerAHero",
       "type": "procedure",
-      "sortid": 99,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_player_a_hero",
@@ -951,7 +951,7 @@
     {
       "name": "IsPlayerHated",
       "type": "procedure",
-      "sortid": 100,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_player_hated",
@@ -969,7 +969,7 @@
     {
       "name": "IsPlayerAnEnemy",
       "type": "procedure",
-      "sortid": 101,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_player_an_enemy",
@@ -987,7 +987,7 @@
     {
       "name": "ReputationKey",
       "type": "keybind",
-      "sortid": 102,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reputation_key",
@@ -996,7 +996,7 @@
     {
       "name": "ReputationKeyOnKeyPressed",
       "type": "procedure",
-      "sortid": 103,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reputation_key_on_key_pressed",
@@ -1029,7 +1029,7 @@
     {
       "name": "SetReputation",
       "type": "command",
-      "sortid": 104,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_reputation",
@@ -1038,7 +1038,7 @@
     {
       "name": "SetReputationCommandExecuted",
       "type": "procedure",
-      "sortid": 105,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_reputation_command_executed",
@@ -1059,7 +1059,7 @@
     {
       "name": "WoodOrFaunaOnFire",
       "type": "procedure",
-      "sortid": 106,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_or_fauna_on_fire",
@@ -1088,7 +1088,7 @@
     {
       "name": "MakeLeavesBurnable",
       "type": "fuel",
-      "sortid": 107,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "make_leaves_burnable",
@@ -1097,7 +1097,7 @@
     {
       "name": "MakeMapleBurnable",
       "type": "fuel",
-      "sortid": 108,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "make_maple_burnable",
@@ -1106,7 +1106,7 @@
     {
       "name": "CottonFiber",
       "type": "item",
-      "sortid": 11,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cotton_fiber",
@@ -1115,7 +1115,7 @@
     {
       "name": "CottonFiberRecipe",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cotton_fiber_recipe",
@@ -1124,7 +1124,7 @@
     {
       "name": "CottonleafCloth",
       "type": "item",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cottonleaf_cloth",
@@ -1133,7 +1133,7 @@
     {
       "name": "CottonLeafClothRecipe",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cotton_leaf_cloth_recipe",
@@ -1142,7 +1142,7 @@
     {
       "name": "Plastic",
       "type": "tag",
-      "sortid": 111,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic",
@@ -1151,7 +1151,7 @@
     {
       "name": "TrampleRepDecrease",
       "type": "procedure",
-      "sortid": 112,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trample_rep_decrease",
@@ -1176,7 +1176,7 @@
     {
       "name": "CloseUI",
       "type": "procedure",
-      "sortid": 113,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "close_ui",
@@ -1193,7 +1193,7 @@
     {
       "name": "ReputationAdmired",
       "type": "achievement",
-      "sortid": 114,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reputation_admired",
@@ -1202,7 +1202,7 @@
     {
       "name": "ReputationHero",
       "type": "achievement",
-      "sortid": 115,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reputation_hero",
@@ -1211,7 +1211,7 @@
     {
       "name": "ReputationHated",
       "type": "achievement",
-      "sortid": 116,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reputation_hated",
@@ -1220,7 +1220,7 @@
     {
       "name": "ReputationEnemy",
       "type": "achievement",
-      "sortid": 117,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reputation_enemy",
@@ -1229,7 +1229,7 @@
     {
       "name": "WheatFlour",
       "type": "item",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wheat_flour",
@@ -1238,7 +1238,7 @@
     {
       "name": "SeitanDough",
       "type": "item",
-      "sortid": 25,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seitan_dough",
@@ -1247,52 +1247,25 @@
     {
       "name": "SeitanDoughRecipe",
       "type": "recipe",
-      "sortid": 118,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seitan_dough_recipe",
       "path": "~/Recipes"
     },
     {
-      "name": "LeafPaperTag",
-      "type": "tag",
-      "sortid": 119,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "leaf_paper_tag",
-      "path": "~/Items"
-    },
-    {
       "name": "SeitanSteak",
       "type": "food",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seitan_steak",
       "path": "~/Items"
     },
     {
-      "name": "CoconutMilkTag",
-      "type": "tag",
-      "sortid": 120,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coconut_milk_tag",
-      "path": "~/Items"
-    },
-    {
-      "name": "MapleSugarTag",
-      "type": "tag",
-      "sortid": 121,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "maple_sugar_tag",
-      "path": "~/Items"
-    },
-    {
       "name": "SeitanSteakRecipe",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seitan_steak_recipe",
@@ -1301,7 +1274,7 @@
     {
       "name": "SeitanSteakRecipe2",
       "type": "recipe",
-      "sortid": 123,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seitan_steak_recipe_2",
@@ -1310,7 +1283,7 @@
     {
       "name": "SeitanSteakRecipe3",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seitan_steak_recipe_3",
@@ -1319,7 +1292,7 @@
     {
       "name": "BookLeafpaperRecipe",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "book_leafpaper_recipe",
@@ -1328,7 +1301,7 @@
     {
       "name": "Plasticstuff",
       "type": "tab",
-      "sortid": 126,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plasticstuff"
@@ -1336,7 +1309,7 @@
     {
       "name": "VeganAlternatives",
       "type": "tab",
-      "sortid": 127,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vegan_alternatives"
@@ -1344,7 +1317,7 @@
     {
       "name": "Icoenemy",
       "type": "item",
-      "sortid": 128,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "icoenemy",
@@ -1353,7 +1326,7 @@
     {
       "name": "Icohated",
       "type": "item",
-      "sortid": 129,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "icohated",
@@ -1362,7 +1335,7 @@
     {
       "name": "Icoadmired",
       "type": "item",
-      "sortid": 130,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "icoadmired",
@@ -1371,7 +1344,7 @@
     {
       "name": "Icohero",
       "type": "item",
-      "sortid": 131,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "icohero",
@@ -1380,7 +1353,7 @@
     {
       "name": "IsReputationEnabled",
       "type": "procedure",
-      "sortid": 132,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_reputation_enabled",
@@ -1398,7 +1371,7 @@
     {
       "name": "ConditionReputationDisabled",
       "type": "procedure",
-      "sortid": 133,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "condition_reputation_disabled",
@@ -1416,7 +1389,7 @@
     {
       "name": "Mapleafpaperrecipe",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mapleafpaperrecipe",
@@ -1425,7 +1398,7 @@
     {
       "name": "IcoAnimatedCosmetics",
       "type": "item",
-      "sortid": 135,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ico_animated_cosmetics",
@@ -1434,7 +1407,7 @@
     {
       "name": "Cosmetics",
       "type": "tab",
-      "sortid": 136,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cosmetics"
@@ -1442,7 +1415,7 @@
     {
       "name": "LeafFeather",
       "type": "item",
-      "sortid": 27,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaf_feather",
@@ -1451,7 +1424,7 @@
     {
       "name": "MakeLeafFeatherBurnable",
       "type": "fuel",
-      "sortid": 137,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "make_leaf_feather_burnable",
@@ -1460,7 +1433,7 @@
     {
       "name": "LeafFeatherRecipe",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaf_feather_recipe",
@@ -1469,7 +1442,7 @@
     {
       "name": "LeafFeatherToFeather",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaf_feather_to_feather",
@@ -1478,7 +1451,7 @@
     {
       "name": "LeafFeatherArrow",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaf_feather_arrow",
@@ -1487,7 +1460,7 @@
     {
       "name": "Maskblue",
       "type": "armor",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maskblue",
@@ -1502,7 +1475,7 @@
     {
       "name": "Maskblack",
       "type": "armor",
-      "sortid": 31,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maskblack",
@@ -1517,7 +1490,7 @@
     {
       "name": "Maskgreen",
       "type": "armor",
-      "sortid": 32,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maskgreen",
@@ -1532,7 +1505,7 @@
     {
       "name": "Masklightblue",
       "type": "armor",
-      "sortid": 33,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "masklightblue",
@@ -1547,7 +1520,7 @@
     {
       "name": "Maskorange",
       "type": "armor",
-      "sortid": 34,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maskorange",
@@ -1562,7 +1535,7 @@
     {
       "name": "MaskMagenta",
       "type": "armor",
-      "sortid": 35,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mask_magenta",
@@ -1577,7 +1550,7 @@
     {
       "name": "MaskRed",
       "type": "armor",
-      "sortid": 36,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mask_red",
@@ -1592,7 +1565,7 @@
     {
       "name": "MaskWhite",
       "type": "armor",
-      "sortid": 37,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mask_white",
@@ -1607,7 +1580,7 @@
     {
       "name": "MaskYellow",
       "type": "armor",
-      "sortid": 38,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mask_yellow",
@@ -1622,7 +1595,7 @@
     {
       "name": "GreenmaskRecipe",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "greenmask_recipe",
@@ -1631,7 +1604,7 @@
     {
       "name": "WhiteMRecipe",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_m_recipe",
@@ -1640,7 +1613,7 @@
     {
       "name": "BlueMRecipe",
       "type": "recipe",
-      "sortid": 143,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_m_recipe",
@@ -1649,7 +1622,7 @@
     {
       "name": "BlackMRecipe",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_m_recipe",
@@ -1658,7 +1631,7 @@
     {
       "name": "LightBlueMRecipe",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_m_recipe",
@@ -1667,7 +1640,7 @@
     {
       "name": "OrangeMRecipe",
       "type": "recipe",
-      "sortid": 146,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_m_recipe",
@@ -1676,7 +1649,7 @@
     {
       "name": "MagentaMRecipe",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_m_recipe",
@@ -1685,7 +1658,7 @@
     {
       "name": "RedMRecipe",
       "type": "recipe",
-      "sortid": 148,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_m_recipe",
@@ -1694,7 +1667,7 @@
     {
       "name": "YellowMRecipe",
       "type": "recipe",
-      "sortid": 149,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_m_recipe",
@@ -1703,7 +1676,7 @@
     {
       "name": "CheckRepAdvOnJoin",
       "type": "procedure",
-      "sortid": 150,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "check_rep_adv_on_join",
@@ -1720,7 +1693,7 @@
     {
       "name": "BookNQuillLFRecipe",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "book_n_quill_lf_recipe",
@@ -1729,7 +1702,7 @@
     {
       "name": "RecyclableNetherite",
       "type": "tag",
-      "sortid": 152,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recyclable_netherite",
@@ -1738,7 +1711,7 @@
     {
       "name": "SpecialRecycles",
       "type": "procedure",
-      "sortid": 153,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "special_recycles",
@@ -1770,7 +1743,7 @@
     {
       "name": "RecyclableDiamond",
       "type": "tag",
-      "sortid": 154,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recyclable_diamond",
@@ -1779,7 +1752,7 @@
     {
       "name": "RecyclableDiamondArmor",
       "type": "tag",
-      "sortid": 155,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recyclable_diamond_armor",
@@ -1788,7 +1761,7 @@
     {
       "name": "RecyclableNetheriteArmor",
       "type": "tag",
-      "sortid": 156,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recyclable_netherite_armor",
@@ -1797,10 +1770,361 @@
     {
       "name": "CoconutMilkFoodEaten",
       "type": "procedure",
-      "sortid": 157,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_milk_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BookIcon",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_icon",
+      "path": "~/Items/icons"
+    },
+    {
+      "name": "BookTab",
+      "type": "tab",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_tab"
+    },
+    {
+      "name": "MortarGrannybook",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar_grannybook",
+      "path": "~/Items/Grannys Books"
+    },
+    {
+      "name": "VeganGrannybook",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vegan_grannybook",
+      "path": "~/Items/Grannys Books"
+    },
+    {
+      "name": "RecyclingGrannybook",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recycling_grannybook",
+      "path": "~/Items/Grannys Books"
+    },
+    {
+      "name": "CosmeticGrannybook",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmetic_grannybook",
+      "path": "~/Items/Grannys Books"
+    },
+    {
+      "name": "ApplePuree",
+      "type": "food",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_puree",
+      "path": "~/Items"
+    },
+    {
+      "name": "Startingbook",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "startingbook",
+      "path": "~/Items/Grannys Books"
+    },
+    {
+      "name": "CakeRec1",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_rec_1",
+      "path": "~/Recipes/Cakes"
+    },
+    {
+      "name": "CakeRec2",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_rec_2",
+      "path": "~/Recipes/Cakes"
+    },
+    {
+      "name": "CakeRec3",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_rec_3",
+      "path": "~/Recipes/Cakes"
+    },
+    {
+      "name": "CakeRec4",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_rec_4",
+      "path": "~/Recipes/Cakes"
+    },
+    {
+      "name": "CakeRec5",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_rec_5",
+      "path": "~/Recipes/Cakes"
+    },
+    {
+      "name": "CakeRec6",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_rec_6",
+      "path": "~/Recipes/Cakes"
+    },
+    {
+      "name": "RecyclingTrophy",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recycling_trophy",
+      "path": "~/Items"
+    },
+    {
+      "name": "SetRecycledItems",
+      "type": "command",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_recycled_items"
+    },
+    {
+      "name": "SetRecycledExecution",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_recycled_execution",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FirstJoinBook",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_join_book",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Grannys Books"
+    },
+    {
+      "name": "SyntheticLeather",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synthetic_leather",
+      "path": "~/Items"
+    },
+    {
+      "name": "SyntheticLeatherRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synthetic_leather_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "StartingBookRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starting_book_recipe",
+      "path": "~/Items/Grannys Books"
+    },
+    {
+      "name": "AcornMush",
+      "type": "food",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acorn_mush",
+      "path": "~/Items"
+    },
+    {
+      "name": "AcornMushFoodEaten",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acorn_mush_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AcornMushRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acorn_mush_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MortarGrannyBookRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar_granny_book_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "VeganGrannyBookRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vegan_granny_book_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RecyclingGrannyBookRecipe",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recycling_granny_book_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CosmeticGrannyBookRecipe",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmetic_granny_book_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SBFirstPage",
+      "type": "gui",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sb_first_page",
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "RecyclingTableRecipe",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recycling_table_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AcornMushAdv",
+      "type": "achievement",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acorn_mush_adv",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "BookRecipeSynthetic",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_recipe_synthetic",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Bookrecipesynthetic2",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bookrecipesynthetic_2",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ItemFrameRecipe",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_frame_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SBOpenPage1",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sb_open_page_1",
       "metadata": {
         "dependencies": [
           {
@@ -1824,166 +2148,25 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BOOK UI/Starter Book"
     },
     {
-      "name": "BookIcon",
-      "type": "item",
-      "sortid": 158,
+      "name": "SBPage2",
+      "type": "gui",
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "book_icon",
-      "path": "~/Items/icons"
+      "registry_name": "sb_page_2",
+      "path": "~/BOOK UI/Starter Book"
     },
     {
-      "name": "BookTab",
-      "type": "tab",
-      "sortid": 159,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "book_tab"
-    },
-    {
-      "name": "MortarGrannybook",
-      "type": "item",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mortar_grannybook",
-      "path": "~/Items/Grannys Books"
-    },
-    {
-      "name": "VeganGrannybook",
-      "type": "item",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vegan_grannybook",
-      "path": "~/Items/Grannys Books"
-    },
-    {
-      "name": "RecyclingGrannybook",
-      "type": "item",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recycling_grannybook",
-      "path": "~/Items/Grannys Books"
-    },
-    {
-      "name": "CosmeticGrannybook",
-      "type": "item",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cosmetic_grannybook",
-      "path": "~/Items/Grannys Books"
-    },
-    {
-      "name": "ApplePuree",
-      "type": "food",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "apple_puree",
-      "path": "~/Items"
-    },
-    {
-      "name": "Startingbook",
-      "type": "item",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "startingbook",
-      "path": "~/Items/Grannys Books"
-    },
-    {
-      "name": "CakeRec1",
-      "type": "recipe",
-      "sortid": 160,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cake_rec_1",
-      "path": "~/Recipes/Cakes"
-    },
-    {
-      "name": "CakeRec2",
-      "type": "recipe",
-      "sortid": 161,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cake_rec_2",
-      "path": "~/Recipes/Cakes"
-    },
-    {
-      "name": "CakeRec3",
-      "type": "recipe",
-      "sortid": 162,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cake_rec_3",
-      "path": "~/Recipes/Cakes"
-    },
-    {
-      "name": "CakeRec4",
-      "type": "recipe",
-      "sortid": 163,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cake_rec_4",
-      "path": "~/Recipes/Cakes"
-    },
-    {
-      "name": "CakeRec5",
-      "type": "recipe",
-      "sortid": 164,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cake_rec_5",
-      "path": "~/Recipes/Cakes"
-    },
-    {
-      "name": "CakeRec6",
-      "type": "recipe",
-      "sortid": 165,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cake_rec_6",
-      "path": "~/Recipes/Cakes"
-    },
-    {
-      "name": "RecyclingTrophy",
-      "type": "item",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recycling_trophy",
-      "path": "~/Items"
-    },
-    {
-      "name": "Eggtag",
-      "type": "tag",
-      "sortid": 166,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eggtag",
-      "path": "~/Tags"
-    },
-    {
-      "name": "SetRecycledItems",
-      "type": "command",
-      "sortid": 167,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "set_recycled_items"
-    },
-    {
-      "name": "SetRecycledExecution",
+      "name": "SBOpenPage2",
       "type": "procedure",
-      "sortid": 168,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "set_recycled_execution",
+      "registry_name": "sb_open_page_2",
       "metadata": {
         "dependencies": [
           {
@@ -1991,24 +2174,16 @@
             "type": "entity"
           },
           {
-            "name": "cmdparams",
-            "type": "map"
-          }
-        ]
-      }
-    },
-    {
-      "name": "FirstJoinBook",
-      "type": "procedure",
-      "sortid": 169,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "first_join_book",
-      "metadata": {
-        "dependencies": [
+            "name": "x",
+            "type": "number"
+          },
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
           },
           {
             "name": "world",
@@ -2016,51 +2191,24 @@
           }
         ]
       },
-      "path": "~/Items/Grannys Books"
+      "path": "~/BOOK UI/Starter Book"
     },
     {
-      "name": "SyntheticLeather",
-      "type": "item",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "synthetic_leather",
-      "path": "~/Items"
-    },
-    {
-      "name": "SyntheticLeatherRecipe",
-      "type": "recipe",
-      "sortid": 170,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "synthetic_leather_recipe",
-      "path": "~/Recipes"
-    },
-    {
-      "name": "StartingBookRecipe",
-      "type": "recipe",
-      "sortid": 171,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "starting_book_recipe",
-      "path": "~/Items/Grannys Books"
-    },
-    {
-      "name": "AcornMush",
+      "name": "AlcoholBottle",
       "type": "food",
-      "sortid": 19,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "acorn_mush",
+      "registry_name": "alcohol_bottle",
       "path": "~/Items"
     },
     {
-      "name": "AcornMushFoodEaten",
+      "name": "AlcoholDrunkEffect",
       "type": "procedure",
-      "sortid": 172,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "acorn_mush_food_eaten",
+      "registry_name": "alcohol_drunk_effect",
       "metadata": {
         "dependencies": [
           {
@@ -2072,76 +2220,31 @@
       "path": "~/Items"
     },
     {
-      "name": "AcornMushRecipe",
-      "type": "recipe",
-      "sortid": 173,
+      "name": "MakeAlcoholBurnable",
+      "type": "fuel",
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "acorn_mush_recipe",
+      "registry_name": "make_alcohol_burnable",
+      "path": "~/Items/Burnable"
+    },
+    {
+      "name": "AlcoholRecipe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alcohol_recipe",
       "path": "~/Recipes"
     },
     {
-      "name": "MortarGrannyBookRecipe",
+      "name": "SyntheticLeatherCuring",
       "type": "recipe",
-      "sortid": 174,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mortar_granny_book_recipe",
+      "registry_name": "synthetic_leather_curing",
       "path": "~/Recipes"
-    },
-    {
-      "name": "VeganGrannyBookRecipe",
-      "type": "recipe",
-      "sortid": 175,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vegan_granny_book_recipe",
-      "path": "~/Recipes"
-    },
-    {
-      "name": "RecyclingGrannyBookRecipe",
-      "type": "recipe",
-      "sortid": 176,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recycling_granny_book_recipe",
-      "path": "~/Recipes"
-    },
-    {
-      "name": "CosmeticGrannyBookRecipe",
-      "type": "recipe",
-      "sortid": 177,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cosmetic_granny_book_recipe",
-      "path": "~/Recipes"
-    },
-    {
-      "name": "SBFirstPage",
-      "type": "gui",
-      "sortid": 178,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sb_first_page",
-      "path": "~/BOOK UI/Starter Book"
-    },
-    {
-      "name": "RecyclingTableRecipe",
-      "type": "recipe",
-      "sortid": 179,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recycling_table_recipe",
-      "path": "~/Recipes"
-    },
-    {
-      "name": "AcornMushAdv",
-      "type": "achievement",
-      "sortid": 180,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "acorn_mush_adv",
-      "path": "~/Achievements"
     }
   ],
   "variable_elements": [
@@ -2164,7 +2267,16 @@
       "value": "false"
     }
   ],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "booksfx",
+      "files": [
+        "booksound"
+      ],
+      "category": "neutral",
+      "subtitle": "Book Opened"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.natures_aid.maskorange_leggings": "Maskblue Leggings",
@@ -2221,6 +2333,7 @@
       "item.natures_aid.maskblue_boots": "Maskblue Boots",
       "advancements.oil_adv.title": "Going for plastic.",
       "ecorep.penalty.farmlandtrampled": "-1 Eco-Reputation for intentionally trampling a farmland.",
+      "subtitles.booksfx": "Book Opened",
       "ecorep.penalty.plasticoceanorbeach": "-5 Eco-Reputation for contaminating near an ocean or beach with plastic.",
       "advancements.squirrel_ach.title": "Do you identify as a squirrel?",
       "item.natures_aid.maple_leaf": "Maple Leaf",
@@ -2238,6 +2351,7 @@
       "item.natures_aid.plastic_blob": "Plastic Blob",
       "item.natures_aid.maskgreen_helmet": "Green Mask",
       "item.natures_aid.mask_yellow_chestplate": "Maskblue Body",
+      "item.natures_aid.alcohol_bottle": "Alcohol Bottle",
       "item.natures_aid.mask_magenta_helmet": "Magenta Mask",
       "advancements.recycle_adv.descr": "Start recycling! Make a recycling table.",
       "item.natures_aid.recycling_trophy": "Recycling Trophy",
@@ -2370,6 +2484,7 @@
       "item.natures_aid.maskblue_boots": "Maskblue Boots",
       "advancements.oil_adv.title": "Going for plastic.",
       "ecorep.penalty.farmlandtrampled": "-1 Eco-Reputation for intentionally trampling a farmland.",
+      "subtitles.booksfx": "Book Opened",
       "ecorep.penalty.plasticoceanorbeach": "-5 Eco-Reputation for contaminating near an ocean or beach with plastic. Better if you recyle it.",
       "advancements.squirrel_ach.title": "Do you identify as a squirrel?",
       "item.natures_aid.maple_leaf": "Maple Leaf",
@@ -2387,6 +2502,7 @@
       "item.natures_aid.plastic_blob": "Plastic Blob",
       "item.natures_aid.maskgreen_helmet": "Green Mask",
       "item.natures_aid.mask_yellow_chestplate": "Maskblue Body",
+      "item.natures_aid.alcohol_bottle": "Alcohol Bottle",
       "item.natures_aid.mask_magenta_helmet": "Magenta Mask",
       "advancements.recycle_adv.descr": "Start recycling! Make a recycling table.",
       "item.natures_aid.recycling_trophy": "Recycling Trophy",
@@ -2544,7 +2660,7 @@
   "workspaceSettings": {
     "modid": "natures_aid",
     "modName": "Nature\u0027s Aid",
-    "version": "22.3.22",
+    "version": "22.3.23",
     "description": "A brand new way to play Minecraft in an ecological way.",
     "author": "Alm, ACT",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/natures-aid",

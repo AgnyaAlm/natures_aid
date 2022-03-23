@@ -57,6 +57,7 @@ import net.act.naturesaid.item.CoconutItem;
 import net.act.naturesaid.item.CelluloseFiberItem;
 import net.act.naturesaid.item.BookIconItem;
 import net.act.naturesaid.item.ApplePureeItem;
+import net.act.naturesaid.item.AlcoholBottleItem;
 import net.act.naturesaid.item.AcornMushItem;
 import net.act.naturesaid.item.AcornItem;
 import net.act.naturesaid.NaturesAidMod;
@@ -72,8 +73,9 @@ public class NaturesAidModItems {
 	public static final RegistryObject<Item> COCONUT = REGISTRY.register("coconut", () -> new CoconutItem());
 	public static final RegistryObject<Item> HALF_COCONUT = REGISTRY.register("half_coconut", () -> new HalfCoconutItem());
 	public static final RegistryObject<Item> PURE_COCO = REGISTRY.register("pure_coco", () -> new PureCocoItem());
-	public static final RegistryObject<Item> LEAFPAPER = REGISTRY.register("leafpaper", () -> new LeafpaperItem());
 	public static final RegistryObject<Item> COTTON_FIBER = REGISTRY.register("cotton_fiber", () -> new CottonFiberItem());
+	public static final RegistryObject<Item> ALCOHOL_BOTTLE = REGISTRY.register("alcohol_bottle", () -> new AlcoholBottleItem());
+	public static final RegistryObject<Item> LEAFPAPER = REGISTRY.register("leafpaper", () -> new LeafpaperItem());
 	public static final RegistryObject<Item> COTTONLEAF_CLOTH = REGISTRY.register("cottonleaf_cloth", () -> new CottonleafClothItem());
 	public static final RegistryObject<Item> RECYCLING_TABLE = block(NaturesAidModBlocks.RECYCLING_TABLE, NaturesAidModTabs.TAB_PLASTICSTUFF);
 	public static final RegistryObject<Item> OIL_BOTTLE = REGISTRY.register("oil_bottle", () -> new OilBottleItem());

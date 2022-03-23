@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "natures_aid:synthetic_leather"
+    },
+    {
+      "item": "natures_aid:synthetic_leather"
+    },
+    {
+      "item": "natures_aid:synthetic_leather"
+    },
+    {
+      "item": "natures_aid:synthetic_leather"
+    },
+    {
+      "item": "natures_aid:alcohol_bottle"
+    }
+  ],
+  "result": {
+    "item": "minecraft:leather",
+    "count": 4
+  }
+}

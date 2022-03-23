@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "natures_aid:cotton_fiber"
+    },
+    "3": {
+      "item": "natures_aid:cotton_fiber"
+    },
+    "4": {
+      "item": "minecraft:potion"
+    },
+    "5": {
+      "item": "natures_aid:cotton_fiber"
+    },
+    "7": {
+      "item": "natures_aid:cotton_fiber"
+    }
+  },
+  "result": {
+    "item": "natures_aid:alcohol_bottle",
+    "count": 1
+  }
+}
