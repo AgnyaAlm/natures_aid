@@ -1,0 +1,8 @@
+{
+  "parent": "natures_aid:custom/recyclingtrophy",
+  "textures": {
+    "all": "natures_aid:blocks/plastic",
+    "particle": "natures_aid:blocks/plastic",
+    "0": "natures_aid:blocks/plastic"
+  }
+}

@@ -43,7 +43,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Items.STICK"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

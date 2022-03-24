@@ -19,6 +19,7 @@ import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.ExperienceOrb;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
@@ -484,16 +485,20 @@ public class DoRecycleProcedure {
 				}
 			}
 		} else {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent(("\u00A7c" + new TranslatableComponent("recycle.error.wrongitem").getString())),
-						(true));
-			if (world instanceof Level _level) {
-				if (!_level.isClientSide()) {
-					_level.playSound(null, new BlockPos((int) x, (int) y, (int) z),
-							ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.item.break")), SoundSource.NEUTRAL, 1, 1);
-				} else {
-					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.item.break")),
-							SoundSource.NEUTRAL, 1, 1, false);
+			if (!((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+							.is(ItemTags.create(new ResourceLocation("forge:enable_recycle"))))) {
+				if (entity instanceof Player _player && !_player.level.isClientSide())
+					_player.displayClientMessage(new TextComponent(("\u00A7c" + new TranslatableComponent("recycle.error.wrongitem").getString())),
+							(true));
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, new BlockPos((int) x, (int) y, (int) z),
+								ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.item.break")), SoundSource.NEUTRAL, 1, 1);
+					} else {
+						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.item.break")),
+								SoundSource.NEUTRAL, 1, 1, false);
+					}
 				}
 			}
 		}

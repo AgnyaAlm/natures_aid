@@ -1057,35 +1057,6 @@
       "path": "~/Reputation System"
     },
     {
-      "name": "WoodOrFaunaOnFire",
-      "type": "procedure",
-      "sortid": 107,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wood_or_fauna_on_fire",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Reputation System"
-    },
-    {
       "name": "MakeLeavesBurnable",
       "type": "fuel",
       "sortid": 108,
@@ -1909,15 +1880,6 @@
       "path": "~/Recipes/Cakes"
     },
     {
-      "name": "RecyclingTrophy",
-      "type": "item",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recycling_trophy",
-      "path": "~/Items"
-    },
-    {
       "name": "SetRecycledItems",
       "type": "command",
       "sortid": 164,
@@ -2245,6 +2207,57 @@
       "locked_code": false,
       "registry_name": "synthetic_leather_curing",
       "path": "~/Recipes"
+    },
+    {
+      "name": "DrunkAdv",
+      "type": "achievement",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drunk_adv",
+      "path": "~/Achievements"
+    },
+    {
+      "name": "EnableRecycle",
+      "type": "tag",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enable_recycle",
+      "path": "~/Tags"
+    },
+    {
+      "name": "RecyclingTrophy",
+      "type": "block",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recycling_trophy",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ThropyDropProcedure",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thropy_drop_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "advancement",
+            "type": "advancement"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2283,19 +2296,19 @@
       "item.natures_aid.maskgreen_leggings": "Maskblue Leggings",
       "advancements.recycle_adv.title": "Use plastic to recover plastic",
       "item.natures_aid.masklightblue_leggings": "Maskblue Leggings",
-      "advancements.reputation_admired.title": "Doing good for the planet.",
       "item.natures_aid.cotton_fiber": "Cotton Fiber",
+      "advancements.reputation_admired.title": "Doing good for the planet.",
       "item.natures_aid.mask_magenta_chestplate": "Maskblue Body",
       "item.natures_aid.acorn": "Acorn",
-      "item.natures_aid.maskblue_chestplate": "Maskblue Body",
       "itemGroup.tabnaturesaidtab": "Nature\u0027s Aid Stuff",
+      "item.natures_aid.maskblue_chestplate": "Maskblue Body",
       "gamerule.enableReputation.description": "Choose to enable or disable Nature Aid\u0027s eco-reputation for villagers. You will still lose/gain reputation points, but villagers won\u0027t care and notifications will not appear.",
       "advancements.jungle_coco_adv.descr": "Get a coconut from a jungle tree.",
       "item.natures_aid.mask_yellow_helmet": "Yellow Mask",
       "item.natures_aid.mask_magenta_boots": "Maskblue Boots",
       "advancements.maple_adv.title": "Since when are maple leaves green?",
-      "advancements.recyclesecret_adv.title": "A better use!",
       "item.natures_aid.seitan_dough": "Seitan Dough",
+      "advancements.recyclesecret_adv.title": "A better use!",
       "item.natures_aid.mask_yellow_boots": "Maskblue Boots",
       "item.natures_aid.ico_animated_cosmetics": "Ico Animated Cosmetics",
       "recycle.error.wrongitem": "That item is not recyclable.",
@@ -2316,6 +2329,8 @@
       "itemGroup.tabcosmetics": "Cosmetics",
       "advancements.acorn_mush_adv.descr": "Eat Acorn Mush, also known as Wiiwish.",
       "item.natures_aid.apple_puree": "Apple Puree",
+      "advancements.drunk_adv.title": "Better than vodka",
+      "block.natures_aid.recycling_trophy": "Recycling Trophy",
       "item.natures_aid.plastic_stick": "Plastic Stick",
       "itemGroup.tabplasticstuff": "Plastic Stuff",
       "item.natures_aid.mask_red_chestplate": "Maskblue Body",
@@ -2354,7 +2369,6 @@
       "item.natures_aid.alcohol_bottle": "Alcohol Bottle",
       "item.natures_aid.mask_magenta_helmet": "Magenta Mask",
       "advancements.recycle_adv.descr": "Start recycling! Make a recycling table.",
-      "item.natures_aid.recycling_trophy": "Recycling Trophy",
       "item.natures_aid.leaf_feather": "Leaf Feather",
       "advancements.reputation_admired.descr": "You\u0027ve reached the \"admired\" eco-reputation.",
       "item.natures_aid.maskblack_helmet": "Black Mask",
@@ -2378,6 +2392,7 @@
       "item.natures_aid.maskblack_boots": "Maskblue Boots",
       "itemGroup.tabvegan_alternatives": "Vegan Alternatives \u0026 Food",
       "item.natures_aid.maskgreen_chestplate": "Maskblue Body",
+      "advancements.drunk_adv.descr": "Alcohol isn\u0027t healthy.",
       "recycle.error.removeitems": "Grab the resulted items before recycling again!",
       "advancements.reputation_enemy.descr": "You\u0027ve reached the \"enemy\" eco-reputation, now villagers will not want to trade with you. You monster.",
       "advancements.oil_death.descr": "Don\u0027t try this at home.",
@@ -2434,19 +2449,19 @@
       "item.natures_aid.maskgreen_leggings": "Maskblue Leggings",
       "advancements.recycle_adv.title": "Usa el plastico para recuperar el plastico.",
       "item.natures_aid.masklightblue_leggings": "Maskblue Leggings",
-      "advancements.reputation_admired.title": "Doing good for the planet.",
       "item.natures_aid.cotton_fiber": "Cotton Fiber",
+      "advancements.reputation_admired.title": "Doing good for the planet.",
       "item.natures_aid.mask_magenta_chestplate": "Maskblue Body",
       "item.natures_aid.acorn": "Acorn",
-      "item.natures_aid.maskblue_chestplate": "Maskblue Body",
       "itemGroup.tabnaturesaidtab": "Nature\u0027s Aid Stuff",
+      "item.natures_aid.maskblue_chestplate": "Maskblue Body",
       "gamerule.enableReputation.description": "Choose to enable or disable Nature Aid\u0027s eco-reputation for villagers. You will still lose/gain reputation points, but villagers won\u0027t care and notifications will not appear.",
       "advancements.jungle_coco_adv.descr": "Get a coconut from a jungle tree.",
       "item.natures_aid.mask_yellow_helmet": "Yellow Mask",
       "item.natures_aid.mask_magenta_boots": "Maskblue Boots",
       "advancements.maple_adv.title": "Since when are maple leaves green?",
-      "advancements.recyclesecret_adv.title": "A better use!",
       "item.natures_aid.seitan_dough": "Seitan Dough",
+      "advancements.recyclesecret_adv.title": "A better use!",
       "item.natures_aid.mask_yellow_boots": "Maskblue Boots",
       "item.natures_aid.ico_animated_cosmetics": "Ico Animated Cosmetics",
       "recycle.error.wrongitem": "That item is not recyclable.",
@@ -2467,6 +2482,8 @@
       "itemGroup.tabcosmetics": "Cosmetics",
       "advancements.acorn_mush_adv.descr": "Eat Acorn Mush, also known as Wiiwish.",
       "item.natures_aid.apple_puree": "Apple Puree",
+      "advancements.drunk_adv.title": "Better than vodka",
+      "block.natures_aid.recycling_trophy": "Recycling Trophy",
       "item.natures_aid.plastic_stick": "Plastic Stick",
       "itemGroup.tabplasticstuff": "Plastic Stuff",
       "item.natures_aid.mask_red_chestplate": "Maskblue Body",
@@ -2505,7 +2522,6 @@
       "item.natures_aid.alcohol_bottle": "Alcohol Bottle",
       "item.natures_aid.mask_magenta_helmet": "Magenta Mask",
       "advancements.recycle_adv.descr": "Start recycling! Make a recycling table.",
-      "item.natures_aid.recycling_trophy": "Recycling Trophy",
       "item.natures_aid.leaf_feather": "Leaf Feather",
       "advancements.reputation_admired.descr": "You\u0027ve reached the \"admired\" eco-reputation.",
       "item.natures_aid.maskblack_helmet": "Black Mask",
@@ -2529,6 +2545,7 @@
       "item.natures_aid.maskblack_boots": "Maskblue Boots",
       "itemGroup.tabvegan_alternatives": "Vegan Alternatives \u0026 Food",
       "item.natures_aid.maskgreen_chestplate": "Maskblue Body",
+      "advancements.drunk_adv.descr": "Alcohol isn\u0027t healthy.",
       "recycle.error.removeitems": "Grab the resulted items before recycling again!",
       "advancements.reputation_enemy.descr": "You\u0027ve reached the \"enemy\" eco-reputation, now villagers will not want to trade with you. You monster.",
       "advancements.oil_death.descr": "Don\u0027t try this at home.",
@@ -2660,7 +2677,7 @@
   "workspaceSettings": {
     "modid": "natures_aid",
     "modName": "Nature\u0027s Aid",
-    "version": "22.3.23",
+    "version": "22.3.24",
     "description": "A brand new way to play Minecraft in an ecological way.",
     "author": "Alm, ACT",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/natures-aid",

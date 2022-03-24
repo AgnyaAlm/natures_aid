@@ -20,7 +20,6 @@ import net.act.naturesaid.item.StartingbookItem;
 import net.act.naturesaid.item.SmallLeafItem;
 import net.act.naturesaid.item.SeitanSteakItem;
 import net.act.naturesaid.item.SeitanDoughItem;
-import net.act.naturesaid.item.RecyclingTrophyItem;
 import net.act.naturesaid.item.RecyclingGrannybookItem;
 import net.act.naturesaid.item.PureCocoItem;
 import net.act.naturesaid.item.PlasticStickItem;
@@ -82,7 +81,6 @@ public class NaturesAidModItems {
 	public static final RegistryObject<Item> PLASTIC_BLOB = REGISTRY.register("plastic_blob", () -> new PlasticBlobItem());
 	public static final RegistryObject<Item> PLASTIC_STICK = REGISTRY.register("plastic_stick", () -> new PlasticStickItem());
 	public static final RegistryObject<Item> PLASTIC_SPOON = REGISTRY.register("plastic_spoon", () -> new PlasticSpoonItem());
-	public static final RegistryObject<Item> RECYCLING_TROPHY = REGISTRY.register("recycling_trophy", () -> new RecyclingTrophyItem());
 	public static final RegistryObject<Item> ACORN_MUSH = REGISTRY.register("acorn_mush", () -> new AcornMushItem());
 	public static final RegistryObject<Item> MAPLE_SUGAR = REGISTRY.register("maple_sugar", () -> new MapleSugarItem());
 	public static final RegistryObject<Item> MAPLE_SYRUP = REGISTRY.register("maple_syrup", () -> new MapleSyrupItem());
@@ -116,6 +114,7 @@ public class NaturesAidModItems {
 	public static final RegistryObject<Item> ICO_ANIMATED_COSMETICS = REGISTRY.register("ico_animated_cosmetics",
 			() -> new IcoAnimatedCosmeticsItem());
 	public static final RegistryObject<Item> BOOK_ICON = REGISTRY.register("book_icon", () -> new BookIconItem());
+	public static final RegistryObject<Item> RECYCLING_TROPHY = block(NaturesAidModBlocks.RECYCLING_TROPHY, NaturesAidModTabs.TAB_PLASTICSTUFF);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

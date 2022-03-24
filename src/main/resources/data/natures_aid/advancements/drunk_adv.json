@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "natures_aid:alcohol_bottle"
+    },
+    "title": {
+      "translate": "advancements.drunk_adv.title"
+    },
+    "description": {
+      "translate": "advancements.drunk_adv.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "drunk_adv": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "natures_aid:alcohol_bottle"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "natures_aid:mortar_adv"
+}

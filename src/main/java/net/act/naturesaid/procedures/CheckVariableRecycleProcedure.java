@@ -42,7 +42,8 @@ public class CheckVariableRecycleProcedure {
 					}
 				}
 			}
-		} else if ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+		}
+		if ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_recycleditems >= 10) {
 			if (!(entity instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
 					? _plr.getAdvancements()
@@ -59,7 +60,8 @@ public class CheckVariableRecycleProcedure {
 					}
 				}
 			}
-		} else if ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+		}
+		if ((entity.getCapability(NaturesAidModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new NaturesAidModVariables.PlayerVariables())).stat_recycleditems >= 100) {
 			if (!(entity instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
 					? _plr.getAdvancements()
