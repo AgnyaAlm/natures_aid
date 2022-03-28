@@ -8,7 +8,9 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
 import net.act.naturesaid.init.NaturesAidModParticles;
@@ -18,7 +20,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class LeafCatcherTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.OAK_LEAVES) {
+		if ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).is(BlockTags.create(new ResourceLocation("minecraft:leaves")))) {
 			if (Math.random() <= 0.7) {
 				if (new Object() {
 					public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
@@ -162,12 +164,36 @@ public class LeafCatcherTickProcedure {
 						return _retval.get();
 					}
 				}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 3) <= 15) {
-					if ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.JUNGLE_LEAVES) {
+					if ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.JUNGLE_LEAVES
+							|| (world.getBlockState(new BlockPos((int) x, (int) (y + 2), (int) z))).getBlock() == Blocks.JUNGLE_LEAVES) {
 						{
 							BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
 							if (_ent != null) {
 								final int _slotid = 3;
 								final ItemStack _setstack = new ItemStack(NaturesAidModItems.COCONUT.get());
+								_setstack.setCount((int) (new Object() {
+									public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicInteger _retval = new AtomicInteger(0);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+													.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+										return _retval.get();
+									}
+								}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 3) + 1));
+								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+									if (capability instanceof IItemHandlerModifiable)
+										((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+								});
+							}
+						}
+					} else if ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.BIRCH_LEAVES
+							|| (world.getBlockState(new BlockPos((int) x, (int) (y + 2), (int) z))).getBlock() == Blocks.BIRCH_LEAVES) {
+						{
+							BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
+							if (_ent != null) {
+								final int _slotid = 3;
+								final ItemStack _setstack = new ItemStack(Items.APPLE);
 								_setstack.setCount((int) (new Object() {
 									public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 										AtomicInteger _retval = new AtomicInteger(0);
@@ -210,7 +236,8 @@ public class LeafCatcherTickProcedure {
 				}
 			}
 		} else if ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.AIR
-				&& (world.getBlockState(new BlockPos((int) x, (int) (y + 2), (int) z))).getBlock() == Blocks.OAK_LEAVES) {
+				&& (world.getBlockState(new BlockPos((int) x, (int) (y + 2), (int) z)))
+						.is(BlockTags.create(new ResourceLocation("minecraft:leaves")))) {
 			if (Math.random() <= 0.7) {
 				if (new Object() {
 					public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {

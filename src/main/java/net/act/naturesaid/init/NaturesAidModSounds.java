@@ -19,6 +19,7 @@ public class NaturesAidModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
 		REGISTRY.put(new ResourceLocation("natures_aid", "booksfx"), new SoundEvent(new ResourceLocation("natures_aid", "booksfx")));
+		REGISTRY.put(new ResourceLocation("natures_aid", "naturesaidmain"), new SoundEvent(new ResourceLocation("natures_aid", "naturesaidmain")));
 	}
 
 	@SubscribeEvent

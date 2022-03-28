@@ -2258,6 +2258,513 @@
           }
         ]
       }
+    },
+    {
+      "name": "MBPage1",
+      "type": "gui",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mb_page_1",
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "MBOpenPage1",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mb_open_page_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "MBPage2",
+      "type": "gui",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mb_page_2",
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "MBOpenPage2",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mb_open_page_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "MBPage3",
+      "type": "gui",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mb_page_3",
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "MBOpenPage3",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mb_open_page_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "MBPage4",
+      "type": "gui",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mb_page_4",
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "MBOpenPage4",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mb_open_page_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "BookNotImplemented",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_not_implemented",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/BOOK UI"
+    },
+    {
+      "name": "WaxWithMaple",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wax_with_maple",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NaturesAidDisc",
+      "type": "musicdisc",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natures_aid_disc",
+      "path": "~/Items"
+    },
+    {
+      "name": "MusicDiscRecipe",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "VAPage1",
+      "type": "gui",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "va_page_1",
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "VAPage2",
+      "type": "gui",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "va_page_2",
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "VAPage3",
+      "type": "gui",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "va_page_3",
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "VAPage4",
+      "type": "gui",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "va_page_4",
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "VAPage5",
+      "type": "gui",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "va_page_5",
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "VAOpenPage1",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "va_open_page_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "VAOpenPage2",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "va_open_page_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "VAOpenPage3",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "va_open_page_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "VAOpenPage4",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "va_open_page_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "VAOpenPage5",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "va_open_page_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BOOK UI/Starter Book"
+    },
+    {
+      "name": "MapleWax",
+      "type": "particle",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_wax",
+      "path": "~/Misc"
+    },
+    {
+      "name": "WaxEffects",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wax_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "MaxRepEffect",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "max_rep_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2288,6 +2795,14 @@
       ],
       "category": "neutral",
       "subtitle": "Book Opened"
+    },
+    {
+      "name": "naturesaidmain",
+      "files": [
+        "magic-tavern-320bit"
+      ],
+      "category": "music",
+      "subtitle": "Nature\u0027s Aid Music"
     }
   ],
   "language_map": {
@@ -2346,6 +2861,7 @@
       "item.natures_aid.maple_syrup": "Maple Syrup",
       "advancements.maple_syrup_adv.title": "Eh, just like normal honey, but vegan!",
       "item.natures_aid.maskblue_boots": "Maskblue Boots",
+      "subtitles.naturesaidmain": "Nature\u0027s Aid Music",
       "advancements.oil_adv.title": "Going for plastic.",
       "ecorep.penalty.farmlandtrampled": "-1 Eco-Reputation for intentionally trampling a farmland.",
       "subtitles.booksfx": "Book Opened",
@@ -2354,6 +2870,7 @@
       "item.natures_aid.maple_leaf": "Maple Leaf",
       "item.natures_aid.cosmetic_grannybook": "Granny\u0027s Guide to Cosmetics",
       "item.natures_aid.half_coconut": "Half Coconut",
+      "item.natures_aid.natures_aid_disc.desc": "Alexander Nakarada - Celtic Fantasy",
       "item.natures_aid.icoadmired": "Admired",
       "ecorep.gain.recycle": "+1 Eco-Reputation for recycling an item you didn\u0027t need.",
       "advancements.recyclethird_adv.title": "A true hero",
@@ -2375,7 +2892,7 @@
       "block.natures_aid.maple_block": "Maple Block",
       "item.natures_aid.mask_magenta_leggings": "Maskblue Leggings",
       "item.natures_aid.book_icon": "BookIcon",
-      "advancements.recyclesecret_adv.descr": "You\u0027ve recycled your trophy, you\u0027re pretty dedicated to save the planet!",
+      "advancements.recyclesecret_adv.descr": "You\u0027ve even recycled your trophy, you\u0027re pretty dedicated to save the planet!",
       "advancements.leaf_adv.descr": "Collect some leaves from your leaf catcher.",
       "item.natures_aid.mask_red_boots": "Maskblue Boots",
       "item.natures_aid.masklightblue_chestplate": "Maskblue Body",
@@ -2384,6 +2901,7 @@
       "item.natures_aid.mask_red_leggings": "Maskblue Leggings",
       "key.natures_aid.reputation_key": "Statistics Menu",
       "item.natures_aid.maskorange_helmet": "Orange Mask",
+      "item.natures_aid.natures_aid_disc": "Music Disc: Nature\u0027s Aid",
       "advancements.jungle_coco_adv.title": "Jungles are pretty useful!",
       "ecorep.currentrep": "(Current reputation: ",
       "advancements.squirrel_ach.descr": "Eat an acorn... But why?",
@@ -2392,7 +2910,7 @@
       "item.natures_aid.maskblack_boots": "Maskblue Boots",
       "itemGroup.tabvegan_alternatives": "Vegan Alternatives \u0026 Food",
       "item.natures_aid.maskgreen_chestplate": "Maskblue Body",
-      "advancements.drunk_adv.descr": "Alcohol isn\u0027t healthy.",
+      "advancements.drunk_adv.descr": "You weren\u0027t meant to drink it...",
       "recycle.error.removeitems": "Grab the resulted items before recycling again!",
       "advancements.reputation_enemy.descr": "You\u0027ve reached the \"enemy\" eco-reputation, now villagers will not want to trade with you. You monster.",
       "advancements.oil_death.descr": "Don\u0027t try this at home.",
@@ -2499,6 +3017,7 @@
       "item.natures_aid.maple_syrup": "Maple Syrup",
       "advancements.maple_syrup_adv.title": "Eh, just like normal honey, but vegan!",
       "item.natures_aid.maskblue_boots": "Maskblue Boots",
+      "subtitles.naturesaidmain": "Nature\u0027s Aid Music",
       "advancements.oil_adv.title": "Going for plastic.",
       "ecorep.penalty.farmlandtrampled": "-1 Eco-Reputation for intentionally trampling a farmland.",
       "subtitles.booksfx": "Book Opened",
@@ -2507,6 +3026,7 @@
       "item.natures_aid.maple_leaf": "Maple Leaf",
       "item.natures_aid.cosmetic_grannybook": "Granny\u0027s Guide to Cosmetics",
       "item.natures_aid.half_coconut": "Half Coconut",
+      "item.natures_aid.natures_aid_disc.desc": "Celtic Fantasy - Alexander Nakarada",
       "item.natures_aid.icoadmired": "Admired",
       "ecorep.gain.recycle": "+1 Eco-Reputation for recycling an item you didn\u0027t need.",
       "advancements.recyclethird_adv.title": "A true hero",
@@ -2537,6 +3057,7 @@
       "item.natures_aid.mask_red_leggings": "Maskblue Leggings",
       "key.natures_aid.reputation_key": "Statistics Menu",
       "item.natures_aid.maskorange_helmet": "Orange Mask",
+      "item.natures_aid.natures_aid_disc": "Nature\u0027s Aid",
       "advancements.jungle_coco_adv.title": "Jungles are pretty useful!",
       "ecorep.currentrep": "(Current reputation: ",
       "advancements.squirrel_ach.descr": "Eat an acorn... But why?",
@@ -2669,6 +3190,10 @@
           {
             "name": "Starter Book",
             "children": []
+          },
+          {
+            "name": "Mortar Book",
+            "children": []
           }
         ]
       }
@@ -2677,14 +3202,14 @@
   "workspaceSettings": {
     "modid": "natures_aid",
     "modName": "Nature\u0027s Aid",
-    "version": "22.3.24",
-    "description": "A brand new way to play Minecraft in an ecological way.",
+    "version": "22.3.27pre1",
+    "description": "A brand new way to play Minecraft in an eco-friendly way.",
     "author": "Alm, ACT",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/natures-aid",
-    "license": "All Rights Reserved",
+    "license": "Creative Commons Attribution-NonCommercial 3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "natures_aid",
+    "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

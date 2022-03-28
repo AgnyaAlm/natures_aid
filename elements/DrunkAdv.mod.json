@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Better than vodka",
-    "achievementDescription": "Alcohol isn't healthy.",
+    "achievementDescription": "You weren't meant to drink it...",
     "achievementIcon": {
       "value": "CUSTOM:AlcoholBottle"
     },

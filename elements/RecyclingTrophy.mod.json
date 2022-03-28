@@ -25,10 +25,10 @@
       {
         "mx": 0.0,
         "my": 0.0,
-        "mz": 0.0,
+        "mz": 5.0,
         "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "My": 13.0,
+        "Mz": 11.0,
         "subtract": false
       }
     ],
@@ -54,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "GRASS"
+      "value": "GLASS"
     },
     "tickRate": 10,
     "tickRandomly": false,

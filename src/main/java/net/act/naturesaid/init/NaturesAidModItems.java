@@ -27,6 +27,7 @@ import net.act.naturesaid.item.PlasticSpoonItem;
 import net.act.naturesaid.item.PlasticBlobItem;
 import net.act.naturesaid.item.OilBottleItem;
 import net.act.naturesaid.item.NaturesaidprevItem;
+import net.act.naturesaid.item.NaturesAidDiscItem;
 import net.act.naturesaid.item.MortarGrannybookItem;
 import net.act.naturesaid.item.MaskorangeItem;
 import net.act.naturesaid.item.MasklightblueItem;
@@ -115,6 +116,7 @@ public class NaturesAidModItems {
 			() -> new IcoAnimatedCosmeticsItem());
 	public static final RegistryObject<Item> BOOK_ICON = REGISTRY.register("book_icon", () -> new BookIconItem());
 	public static final RegistryObject<Item> RECYCLING_TROPHY = block(NaturesAidModBlocks.RECYCLING_TROPHY, NaturesAidModTabs.TAB_PLASTICSTUFF);
+	public static final RegistryObject<Item> NATURES_AID_DISC = REGISTRY.register("natures_aid_disc", () -> new NaturesAidDiscItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

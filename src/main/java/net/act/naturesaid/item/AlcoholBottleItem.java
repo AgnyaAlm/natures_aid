@@ -35,7 +35,7 @@ public class AlcoholBottleItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("\u00A78Can be used as fuel or used to turn synthetic leather into normal leather."));
+		list.add(new TextComponent("\u00A78Can be used as fuel or to turn synthetic leather into normal leather."));
 	}
 
 	@Override

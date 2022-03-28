@@ -1,0 +1,17 @@
+{
+  "_fv": 25,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_naturesaid",
+    "name": "Music Disc: Nature's Aid",
+    "description": "Alexander Nakarada - Celtic Fantasy",
+    "creativeTab": {
+      "value": "CUSTOM:Cosmetics"
+    },
+    "music": {
+      "value": "CUSTOM:naturesaidmain"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

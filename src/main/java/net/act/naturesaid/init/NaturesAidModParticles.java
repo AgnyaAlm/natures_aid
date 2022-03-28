@@ -16,6 +16,7 @@ import net.minecraft.client.particle.SpriteSet;
 import net.minecraft.client.particle.ParticleProvider;
 import net.minecraft.client.Minecraft;
 
+import net.act.naturesaid.client.particle.MapleWaxParticle;
 import net.act.naturesaid.client.particle.LeafparticleParticle;
 
 import java.util.function.Function;
@@ -27,6 +28,8 @@ public class NaturesAidModParticles {
 	private static final Map<ParticleType<?>, Function<SpriteSet, ParticleProvider<SimpleParticleType>>> REGISTRY = new HashMap<>();
 	public static final SimpleParticleType LEAFPARTICLE = register(new SimpleParticleType(true).setRegistryName("leafparticle"),
 			LeafparticleParticle::provider);
+	public static final SimpleParticleType MAPLE_WAX = register(new SimpleParticleType(true).setRegistryName("maple_wax"),
+			MapleWaxParticle::provider);
 
 	private static SimpleParticleType register(ParticleType<?> particle, Function<SpriteSet, ParticleProvider<SimpleParticleType>> provider) {
 		REGISTRY.put(particle, provider);

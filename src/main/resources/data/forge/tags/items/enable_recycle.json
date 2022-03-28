@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:diamond_shovel",
+    "natures_aid:recycling_trophy",
     "minecraft:netherite_axe",
     "minecraft:netherite_helmet",
     "minecraft:diamond_hoe",

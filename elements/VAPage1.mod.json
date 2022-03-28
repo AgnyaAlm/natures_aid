@@ -1,0 +1,46 @@
+{
+  "_fv": 25,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "vapage1.png",
+          "use1Xscale": true,
+          "name": "vapage1.png",
+          "x": 92,
+          "y": 33
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "VAOpenPage2"
+          },
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 306,
+          "y": 187
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

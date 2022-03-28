@@ -8,5 +8,15 @@
         "stream": false
       }
     ]
+  },
+  "naturesaidmain": {
+    "category": "music",
+    "subtitle": "subtitles.naturesaidmain",
+    "sounds": [
+      {
+        "name": "natures_aid:magic-tavern-320bit",
+        "stream": true
+      }
+    ]
   }
 }

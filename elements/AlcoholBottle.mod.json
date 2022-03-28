@@ -8,7 +8,7 @@
     "name": "Alcohol Bottle",
     "rarity": "COMMON",
     "specialInfo": [
-      "§8Can be used as fuel or used to turn synthetic leather into normal leather."
+      "§8Can be used as fuel or to turn synthetic leather into normal leather."
     ],
     "creativeTab": {
       "value": "CUSTOM:Naturesaidtab"

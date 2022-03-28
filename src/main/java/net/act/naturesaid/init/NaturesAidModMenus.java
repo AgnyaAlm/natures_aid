@@ -12,11 +12,20 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
+import net.act.naturesaid.world.inventory.VAPage5Menu;
+import net.act.naturesaid.world.inventory.VAPage4Menu;
+import net.act.naturesaid.world.inventory.VAPage3Menu;
+import net.act.naturesaid.world.inventory.VAPage2Menu;
+import net.act.naturesaid.world.inventory.VAPage1Menu;
 import net.act.naturesaid.world.inventory.SBPage2Menu;
 import net.act.naturesaid.world.inventory.SBFirstPageMenu;
 import net.act.naturesaid.world.inventory.ReputationUIMenu;
 import net.act.naturesaid.world.inventory.RecycleTableUIMenu;
 import net.act.naturesaid.world.inventory.MortarGUIMenu;
+import net.act.naturesaid.world.inventory.MBPage4Menu;
+import net.act.naturesaid.world.inventory.MBPage3Menu;
+import net.act.naturesaid.world.inventory.MBPage2Menu;
+import net.act.naturesaid.world.inventory.MBPage1Menu;
 import net.act.naturesaid.world.inventory.LeafCatcherInventoryMenu;
 
 import java.util.List;
@@ -35,6 +44,15 @@ public class NaturesAidModMenus {
 	public static final MenuType<SBFirstPageMenu> SB_FIRST_PAGE = register("sb_first_page",
 			(id, inv, extraData) -> new SBFirstPageMenu(id, inv, extraData));
 	public static final MenuType<SBPage2Menu> SB_PAGE_2 = register("sb_page_2", (id, inv, extraData) -> new SBPage2Menu(id, inv, extraData));
+	public static final MenuType<MBPage1Menu> MB_PAGE_1 = register("mb_page_1", (id, inv, extraData) -> new MBPage1Menu(id, inv, extraData));
+	public static final MenuType<MBPage2Menu> MB_PAGE_2 = register("mb_page_2", (id, inv, extraData) -> new MBPage2Menu(id, inv, extraData));
+	public static final MenuType<MBPage3Menu> MB_PAGE_3 = register("mb_page_3", (id, inv, extraData) -> new MBPage3Menu(id, inv, extraData));
+	public static final MenuType<MBPage4Menu> MB_PAGE_4 = register("mb_page_4", (id, inv, extraData) -> new MBPage4Menu(id, inv, extraData));
+	public static final MenuType<VAPage1Menu> VA_PAGE_1 = register("va_page_1", (id, inv, extraData) -> new VAPage1Menu(id, inv, extraData));
+	public static final MenuType<VAPage2Menu> VA_PAGE_2 = register("va_page_2", (id, inv, extraData) -> new VAPage2Menu(id, inv, extraData));
+	public static final MenuType<VAPage3Menu> VA_PAGE_3 = register("va_page_3", (id, inv, extraData) -> new VAPage3Menu(id, inv, extraData));
+	public static final MenuType<VAPage4Menu> VA_PAGE_4 = register("va_page_4", (id, inv, extraData) -> new VAPage4Menu(id, inv, extraData));
+	public static final MenuType<VAPage5Menu> VA_PAGE_5 = register("va_page_5", (id, inv, extraData) -> new VAPage5Menu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

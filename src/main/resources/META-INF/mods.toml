@@ -1,17 +1,17 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="All Rights Reserved"
+license="Creative Commons Attribution-NonCommercial 3.0"
 
 [[mods]]
 modId="natures_aid"
-version="22.3.24"
+version="22.3.271"
 displayName="Nature's Aid"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/natures-aid"
 logoFile="logo.png"
 authors="Alm, ACT"
 description='''
-A brand new way to play Minecraft in an ecological way.
+A brand new way to play Minecraft in an eco-friendly way.
 '''
 
 [[dependencies.natures_aid]]

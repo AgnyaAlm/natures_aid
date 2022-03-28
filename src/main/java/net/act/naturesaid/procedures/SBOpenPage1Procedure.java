@@ -29,14 +29,12 @@ public class SBOpenPage1Procedure {
 		if (world instanceof Level _level) {
 			if (!_level.isClientSide()) {
 				_level.playSound(null, new BlockPos((int) x, (int) y, (int) z),
-						ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("natures_aid:booksfx")), SoundSource.NEUTRAL, 1, (float) 1.2);
+						ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("natures_aid:booksfx")), SoundSource.NEUTRAL, 1, (float) 1.6);
 			} else {
 				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("natures_aid:booksfx")),
-						SoundSource.NEUTRAL, 1, (float) 1.2, false);
+						SoundSource.NEUTRAL, 1, (float) 1.6, false);
 			}
 		}
-		if (entity instanceof Player _player)
-			_player.closeContainer();
 		{
 			if (entity instanceof ServerPlayer _ent) {
 				BlockPos _bpos = new BlockPos((int) x, (int) y, (int) z);

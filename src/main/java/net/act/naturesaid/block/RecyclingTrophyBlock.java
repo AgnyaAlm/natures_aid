@@ -4,6 +4,9 @@ package net.act.naturesaid.block;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.Material;
@@ -37,7 +40,7 @@ public class RecyclingTrophyBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public RecyclingTrophyBlock() {
-		super(BlockBehaviour.Properties.of(Material.GRASS).sound(SoundType.SCAFFOLDING).strength(1f, 10f).noOcclusion()
+		super(BlockBehaviour.Properties.of(Material.GLASS).sound(SoundType.SCAFFOLDING).strength(1f, 10f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -56,6 +59,22 @@ public class RecyclingTrophyBlock extends Block {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 0;
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		Vec3 offset = state.getOffset(world, pos);
+		switch ((Direction) state.getValue(FACING)) {
+			case SOUTH :
+			default :
+				return box(0, 0, 5, 16, 13, 11).move(offset.x, offset.y, offset.z);
+			case NORTH :
+				return box(0, 0, 5, 16, 13, 11).move(offset.x, offset.y, offset.z);
+			case EAST :
+				return box(5, 0, 0, 11, 13, 16).move(offset.x, offset.y, offset.z);
+			case WEST :
+				return box(5, 0, 0, 11, 13, 16).move(offset.x, offset.y, offset.z);
+		}
 	}
 
 	@Override

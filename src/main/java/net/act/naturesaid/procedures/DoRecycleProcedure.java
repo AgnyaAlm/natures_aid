@@ -487,7 +487,22 @@ public class DoRecycleProcedure {
 		} else {
 			if (!((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 					&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-							.is(ItemTags.create(new ResourceLocation("forge:enable_recycle"))))) {
+							.is(ItemTags.create(new ResourceLocation("forge:enable_recycle")))
+					|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+									.is(ItemTags.create(new ResourceLocation("forge:recyclable_netherite")))
+					|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+									.is(ItemTags.create(new ResourceLocation("forge:recyclable_diamond")))
+					|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+									.is(ItemTags.create(new ResourceLocation("forge:recyclable_netherite_armor")))
+					|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+									.is(ItemTags.create(new ResourceLocation("forge:recyclable_diamond_armor")))
+					|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+									.is(ItemTags.create(new ResourceLocation("forge:plastic"))))) {
 				if (entity instanceof Player _player && !_player.level.isClientSide())
 					_player.displayClientMessage(new TextComponent(("\u00A7c" + new TranslatableComponent("recycle.error.wrongitem").getString())),
 							(true));

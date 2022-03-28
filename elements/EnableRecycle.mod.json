@@ -54,6 +54,9 @@
       },
       {
         "value": "Items.DIAMOND_HOE"
+      },
+      {
+        "value": "CUSTOM:RecyclingTrophy"
       }
     ],
     "blocks": [],
